@@ -1,3 +1,6 @@
+
+# https://docs.microsoft.com/en-us/windows/application-management/apps-in-windows-10
+
 Get-AppxPackage Microsoft.549981C3F5F10 | Remove-AppxPackage  # Cortana
 Get-AppxPackage Microsoft.Advertising.Xaml | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
@@ -13,7 +16,6 @@ Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
 Get-AppxPackage Microsoft.Office.OneNote | Remove-AppxPackage
 Get-AppxPackage Microsoft.People | Remove-AppxPackage
 Get-AppxPackage Microsoft.ScreenSketch | Remove-AppxPackage
-Get-AppxPackage Microsoft.Services.Store.Engagement | Remove-AppxPackage
 Get-AppxPackage Microsoft.Services.Store.Engagement | Remove-AppxPackage
 Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.StorePurchaseApp | Remove-AppxPackage
