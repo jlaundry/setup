@@ -1,0 +1,78 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\International]
+"Locale"="00001409"
+"LocaleName"="en-NZ"
+"s1159"="am"
+"s2359"="pm"
+"sCurrency"="$"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="ENZ"
+"sList"=","
+"sLongDate"="dddd, d MMMM yyyy"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="yyyy-MM-dd"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="HH:mm:ss"
+"sShortTime"="HH:mm"
+"sYearMonth"="MMMM yyyy"
+"iCalendarType"="1"
+"iCountry"="64"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="1"
+"iDigits"="2"
+"NumShape"="1"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="1"
+"iNegNumber"="1"
+"iPaperSize"="9"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="1"
+
+[HKEY_CURRENT_USER\Control Panel\International\Geo]
+"Nation"="183"
+"Name"="NZ"
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"Languages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00,65,00,6e,00,2d,00,4e,00,\
+  5a,00,00,00,00,00
+"ShowAutoCorrection"=dword:00000001
+"ShowTextPrediction"=dword:00000001
+"ShowCasing"=dword:00000001
+"ShowShiftLock"=dword:00000001
+"UserLocaleFromLanguageProfileOptOut"=dword:00000001
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile\en-GB]
+"0809:00000409"=dword:00000001
+"CachedLanguageName"="@Winlangdb.dll,-1110"
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile\en-NZ]
+"1409:00000409"=dword:00000001
+"CachedLanguageName"="@Winlangdb.dll,-1117"
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile System Backup]
+"Languages"=hex(7):65,00,6e,00,2d,00,4e,00,5a,00,00,00,00,00
+"ShowAutoCorrection"=dword:00000001
+"ShowTextPrediction"=dword:00000001
+"ShowCasing"=dword:00000001
+"ShowShiftLock"=dword:00000001
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile System Backup\en-NZ]
+"1409:00000409"=dword:00000001
+
+[HKEY_CURRENT_USER\Control Panel\International\🌎🌏🌍]
+"Calendar"="Gregorian"
+
