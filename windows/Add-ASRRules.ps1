@@ -27,11 +27,21 @@ $ASR_ACTION_LOOKUP = @{
     0x6 = "Warn";
 }
 
+Write-Host "Current ASR settings:"
+
 $AsrSetting = Get-MpPreference
 for ($i=0; $i -lt $AsrSetting.AttackSurfaceReductionRules_Ids.Length; $i++)
 {
     $asr_rule_id = $AsrSetting.AttackSurfaceReductionRules_Ids[$i];
     $asr_action = $AsrSetting.AttackSurfaceReductionRules_Actions[$i];
-    Write-Host $asr_rule_id "=" $asr_action " (" $ASR_RULE_LOOKUP[$asr_rule_id] ")"
+    Write-Host $asr_rule_id "=" $ASR_ACTION_LOOKUP[$asr_action] "(" $ASR_RULE_LOOKUP[$asr_rule_id] ")"
 }
- 
+
+Write-Host ""
+
+
+foreach($key in $ASR_RULE_LOOKUP.keys)
+{
+    Write-Host "Setting" $key "(" $ASR_RULE_LOOKUP[$key] ") to block"
+    Add-MpPreference -AttackSurfaceReductionRules_Ids $key -AttackSurfaceReductionRules_Actions Enabled
+}
