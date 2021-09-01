@@ -19,3 +19,19 @@ $ASR_RULE_LOOKUP = @{
     "e6db77e5-3df2-4cf1-b95a-636979351e5b" = "Block persistence through WMI event subscription";
     "56a863a9-875e-4185-98a7-b882c64b5ce5" = "Block abuse of exploited vulnerable signed drivers";
 }
+
+$ASR_ACTION_LOOKUP = @{
+    0x0 = "Disabled";
+    0x1 = "Block";
+    0x2 = "Audit";
+    0x6 = "Warn";
+}
+
+$AsrSetting = Get-MpPreference
+for ($i=0; $i -lt $AsrSetting.AttackSurfaceReductionRules_Ids.Length; $i++)
+{
+    $asr_rule_id = $AsrSetting.AttackSurfaceReductionRules_Ids[$i];
+    $asr_action = $AsrSetting.AttackSurfaceReductionRules_Actions[$i];
+    Write-Host $asr_rule_id "=" $asr_action " (" $ASR_RULE_LOOKUP[$asr_rule_id] ")"
+}
+ 
