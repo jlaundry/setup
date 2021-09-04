@@ -1,0 +1,66 @@
+IPF="ipfw -q add"
+ipfw -q -f flush
+
+HOST_UNIFI="192.168.1.11"
+HOST_MINECRAFT="192.168.1.12"
+HOST_ELK="192.168.1.13"
+
+# loopback 
+$IPF 10 allow all from any to any via lo0
+$IPF 11 allow all from any to any via lo1
+$IPF 20 deny all from any to 127.0.0.0/8
+$IPF 30 deny all from 127.0.0.0/8 to any
+$IPF 40 deny tcp from any to any frag
+
+# stateful
+$IPF 50 check-state
+$IPF 60 allow tcp from any to any established
+
+# outbound
+$IPF 70 allow all from any to any out keep-state
+
+# ICMP
+$IPF 100 allow icmp from any to any icmptypes 0  # Echo Reply
+$IPF 101 allow icmp from any to any icmptypes 3  # Dest Unreachable
+$IPF 102 allow icmp from any to any icmptypes 4  # Source Quench
+$IPF 103 allow icmp from any to any icmptypes 8  # Echo Request
+$IPF 103 allow icmp from any to any icmptypes 11 # TTL Exceeded
+
+# ICMPv6
+$IPF 600 allow ipv6-icmp from any to any keep-state
+
+# SSH
+$IPF 1000 allow tcp from any to any 22 in
+$IPF 1001 allow tcp from any to any 22 out
+
+# Samba
+$IPF 1300 allow udp from any to any netbios\\-ns in keep-state
+$IPF 1301 allow udp from any to any netbios\\-dgm,loc\\-srv in keep-state
+$IPF 1302 allow tcp from any to any netbios\\-ssn,microsoft\\-ds,loc\\-srv in setup keep-state
+$IPF 1303 allow tcp from any to any 445 in setup keep-state
+
+# iperf
+$IPF 2000 allow tcp from any to any 5001 in
+$IPF 2001 allow tcp from any to any 5201 in
+$IPF 2010 allow udp from any to any 5001 in
+
+# Jails
+$IPF 3000 allow tcp from any to $HOST_MINECRAFT 8192 in
+$IPF 3001 allow tcp from any to $HOST_MINECRAFT 25565 in
+
+$IPF 3100 allow tcp from any to $HOST_UNIFI any in
+$IPF 3101 allow udp from any to $HOST_UNIFI any in
+
+# MDNS
+$IPF 4000 allow udp from any to 224.0.0.241 5353 in
+
+# ELK
+$IPF 5601 allow tcp from any to $HOST_ELK 5601 in
+
+# deny (dont log) noise
+$IPF 8000 deny udp from any to any in  # UBNT discover
+$IPF 8001 deny udp from any to 230.0.0.1 6666 in  # Epic Games
+$IPF 8002 deny udp from any to 224.0.0.0/24 any in  # Generic Multicast
+
+# deny and log
+$IPF 9001 deny log all from any to any
