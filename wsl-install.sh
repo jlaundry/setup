@@ -16,10 +16,12 @@ apt update
 
 apt install azure-cli \
 build-essential \
+jq \
 msodbcsql17 \
 mssql-tools \
 net-tools \
 python3-dev \
 python3-venv \
 terraform \
-unixodbc-dev
+unixodbc-dev \
+whois
