@@ -24,4 +24,5 @@ python3-dev \
 python3-venv \
 terraform \
 unixodbc-dev \
-whois
+whois \
+xml-twig-tools
