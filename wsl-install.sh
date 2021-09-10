@@ -14,4 +14,12 @@ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.rel
 
 apt update
 
-apt install python3-venv python3-dev build-essential azure-cli msodbcsql17 mssql-tools unixodbc-dev terraform
+apt install azure-cli \
+build-essential \
+msodbcsql17 \
+mssql-tools \
+net-tools \
+python3-dev \
+python3-venv \
+terraform \
+unixodbc-dev
