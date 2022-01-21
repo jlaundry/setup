@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update && apt upgrade -y
-apt install ca-certificates curl apt-transport-https lsb-release gnupg
+apt install ca-certificates curl apt-transport-https lsb-release gnupg -y
 
 curl -sL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/packages.microsoft.gpg
 
