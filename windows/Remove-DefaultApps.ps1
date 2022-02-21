@@ -9,6 +9,7 @@ Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 Get-AppxPackage Microsoft.YourPhone | Remove-AppxPackage
 Get-AppxPackage MicrosoftTeams | Remove-AppxPackage
+Get-AppxPackage MicrosoftWindows.Client.WebExperience | Remove-AppxPackage
 
 # Things that won't be missed on a lightweight VM
 
