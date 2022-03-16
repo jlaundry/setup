@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+"BingAdsSuppression"=dword:00000001
+"BlockExternalExtensions"=dword:00000001
+"EdgeCollectionsEnabled"=dword:00000000
+"EdgeShoppingAssistantEnabled"=dword:00000000
+"HideFirstRunExperience"=dword:00000001
+"MathSolverEnabled"=dword:00000000
+"NewTabPageAllowedBackgroundTypes"=dword:00000003
+"NewTabPageContentEnabled"=dword:00000000
+"NewTabPageHideDefaultTopSites"=dword:00000001
+"NewTabPageQuickLinksEnabled"=dword:00000000
+"ShowMicrosoftRewards"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+"SleepingTabsEnabled"=dword:00000001
+"WebWidgetAllowed"=dword:00000000
+"WebWidgetIsEnabledOnStartup"=dword:00000000
