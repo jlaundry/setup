@@ -45,3 +45,8 @@ Get-AppxPackage Microsoft.XboxIdentityProvider | Remove-AppxPackage
 Get-AppxPackage Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
+
+Stop-Service -Name Spooler -Force
+Set-Service -Name Spooler -StartupType Disabled
+foreach ($onedrive in (Get-ChildItem $Env:localappdata\Microsoft\OneDrive\*\OneDriveSetup.exe)) {Start-Process -FilePath $onedrive /uninstall}
+
