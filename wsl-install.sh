@@ -12,7 +12,7 @@ echo "deb [arch=${arch} signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg]
 echo "deb [arch=${arch} signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/ubuntu/$(lsb_release -rs)/prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/mssql-release.list
 echo "deb [arch=${arch} signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/microsoft-ubuntu-$(lsb_release -cs)-prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/dotnetdev.list
 
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+curl -fsSL https://apt.releases.hashicorp.com/gpg | gpg --dearmor > /etc/apt/trusted.gpg.d/hashicorp.gpg
 echo "deb [arch=${arch}] https://apt.releases.hashicorp.com $(lsb_release -cs) main" > /etc/apt/sources.list.d/hashicorp.list
 
 apt update
