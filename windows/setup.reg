@@ -25,3 +25,25 @@ Windows Registry Editor Version 5.00
 "SleepingTabsEnabled"=dword:00000001
 "WebWidgetAllowed"=dword:00000000
 "WebWidgetIsEnabledOnStartup"=dword:00000000
+
+; Disable Autorun
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoAutorun"=dword:00000001
+"NoDriveTypeAutoRun"=dword:000000ff
+
+; Disable LM/NTLMv1
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa]
+"LmCompatibilityLevel"=dword:0000005 ; Disable LM/NTLMv1
+"RestrictAnonymous"=dword:00000001 ; Disable anonymous browsing
+"RunAsPPL"=dword:00000001 ; Enable Process Protection Light
+
+; Disable WinRM Basic auth
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WinRM\Client]
+"AllowBasic"=dword:0000000
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WinRM\Service]
+"AllowBasic"=dword:0000000
+
+; Disable remote assistance
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fAllowToGetHelp"=dword:00000000
