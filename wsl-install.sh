@@ -5,6 +5,7 @@ apt install ca-certificates curl apt-transport-https lsb-release gnupg -y
 
 curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/packages.microsoft.gpg
 curl -fsSL https://apt.releases.hashicorp.com/gpg | gpg --dearmor > /etc/apt/trusted.gpg.d/hashicorp.gpg
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/jammy.noarmor.gpg > /etc/apt/trusted.gpg.d/tailscale-archive-keyring.gpg
 
 arch=$(dpkg --print-architecture)
 
@@ -19,6 +20,10 @@ echo "deb [arch=${arch} signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg]
 
 # terraform
 echo "deb [arch=${arch} signed-by=/etc/apt/trusted.gpg.d/hashicorp.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" > /etc/apt/sources.list.d/hashicorp.list
+
+# tailscale
+
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/tailscale.list
 
 apt update
 
