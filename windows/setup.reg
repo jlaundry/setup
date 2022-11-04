@@ -31,6 +31,10 @@ Windows Registry Editor Version 5.00
 "NoAutorun"=dword:00000001
 "NoDriveTypeAutoRun"=dword:000000ff
 
+; Disable autoplay for non-volume devices
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoAutoplayfornonVolume"=dword:00000001
+
 ; Disable LM/NTLMv1
 [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa]
 "LmCompatibilityLevel"=dword:0000005 ; Disable LM/NTLMv1
@@ -47,3 +51,4 @@ Windows Registry Editor Version 5.00
 ; Disable remote assistance
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
 "fAllowToGetHelp"=dword:00000000
+
