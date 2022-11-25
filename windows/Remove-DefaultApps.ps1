@@ -14,6 +14,7 @@ Get-AppxPackage MicrosoftWindows.Client.WebExperience | Remove-AppxPackage
 
 # Things that won't be missed on a lightweight VM
 
+Get-AppxPackage Clipchamp.Clipchamp | Remove-AppxPackage
 Get-AppxPackage Microsoft.549981C3F5F10 | Remove-AppxPackage  # Cortana
 Get-AppxPackage Microsoft.Advertising.Xaml | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
