@@ -1,0 +1,55 @@
+{
+  "description" : "",
+  "name" : "Microsoft Office",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+      "protocol" : "tcp",
+      "remote-addresses" : "52.96.0.0-52.99.255.255"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+      "protocol" : "udp",
+      "remote-addresses" : "52.96.0.0-52.99.255.255"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)",
+      "protocol" : "tcp",
+      "remote-addresses" : "52.96.0.0-52.99.255.255"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)",
+      "protocol" : "udp",
+      "remote-addresses" : "52.96.0.0-52.99.255.255"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3478-3481",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+      "protocol" : "udp",
+      "remote-addresses" : "13.107.64.0-13.107.127.255, 52.112.0.0-52.115.255.255, 52.122.0.0-52.123.255.255, 2603:1063::-2603:1063:1ff:ffff:ffff:ffff:ffff:ffff"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+      "protocol" : "tcp",
+      "remote-addresses" : "13.107.64.0-13.107.127.255, 52.112.0.0-52.115.255.255, 52.122.0.0-52.123.255.255, 52.238.119.141, 52.244.160.207, 2603:1027:0:*:*:*:*:*, 2603:1037:0:*:*:*:*:*, 2603:1047:0:*:*:*:*:*, 2603:1057:0:*:*:*:*:*, 2603:1063::-2603:1063:1ff:ffff:ffff:ffff:ffff:ffff, 2620:1ec:6:*:*:*:*:*, 2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+      "protocol" : "udp",
+      "remote-addresses" : "13.107.64.0-13.107.127.255, 52.112.0.0-52.115.255.255, 52.122.0.0-52.123.255.255, 52.238.119.141, 52.244.160.207, 2603:1027:0:*:*:*:*:*, 2603:1037:0:*:*:*:*:*, 2603:1047:0:*:*:*:*:*, 2603:1057:0:*:*:*:*:*, 2603:1063::-2603:1063:1ff:ffff:ffff:ffff:ffff:ffff, 2620:1ec:6:*:*:*:*:*, 2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff"
+    }
+  ]
+}
