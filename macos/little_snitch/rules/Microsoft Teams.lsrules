@@ -1415,6 +1415,20 @@
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "tcp",
             "remote-hosts": "onedscolprdwus14.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "3478,3479,3480,3481",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "udp",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/39"
+        },
+        {
+            "action": "allow",
+            "ports": "3478,3479,3480,3481",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "udp",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/39"
         }
     ]
 }

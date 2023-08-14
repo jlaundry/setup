@@ -56,6 +56,28 @@ def create_onedrive_rules():
 
     return json.dumps(output, indent=4)
 
+def create_msendpoint_rules(input_rule, process):
+    rules = []
+
+    for protocol in ("tcp", "udp"):
+        if f"{protocol}Ports" in input_rule.keys():
+            if 'ips' in input_rule.keys():
+                rules.append(create_rule(
+                    process=process,
+                    dest_ip=",".join(input_rule['ips']),
+                    ports=input_rule[f"{protocol}Ports"],
+                    protocol=protocol,
+                ))
+            if 'urls' in input_rule.keys():
+                rules.append(create_rule(
+                    process=process,
+                    dest_host=",".join(input_rule['urls']),
+                    ports=input_rule[f"{protocol}Ports"],
+                    protocol=protocol,
+                ))
+
+    return rules
+
 def create_teams_rules():
     rules = []
 
@@ -74,6 +96,16 @@ def create_teams_rules():
                 ports="443",
                 protocol="tcp",
             ))
+
+    # curl https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7 > office.json
+    with open("office.json", "r") as of:
+        msoffice_endpoints_worldwide = json.load(of)
+
+    teams_ui_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (11, )]
+    for process in teams_ui['processes']:
+        for input_rule in teams_ui_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            rules += create_msendpoint_rules(input_rule, process)
 
     output = {
         "description": "",
