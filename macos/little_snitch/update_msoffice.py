@@ -20,12 +20,24 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
         }
         return rule
     elif dest_host is not None:
+        hosts = []
+        for hostname in dest_host.split(","):
+            if hostname.startswith("*."):
+                raise Exception(f"host={hostname} remote-domains not implemented")
+            elif "*" in hostname:
+                raise Exception(f"host={hostname} contains wildcard (not supported)")
+            else:
+                hosts.append(hostname)
+
+        if len(hosts) == 1:
+            hosts = hosts[0]
+
         rule = {
             "action": "allow",
             "ports": ports,
             "process": process,
             "protocol": protocol,
-            "remote-hosts": dest_host
+            "remote-hosts": hosts
         }
         return rule
     else:

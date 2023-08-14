@@ -1442,7 +1442,10 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
-            "remote-hosts": "outlook.office.com,outlook.office365.com"
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
         },
         {
             "action": "allow",
@@ -1456,7 +1459,10 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "udp",
-            "remote-hosts": "outlook.office.com,outlook.office365.com"
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
         },
         {
             "action": "allow",
@@ -1470,7 +1476,10 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
-            "remote-hosts": "outlook.office.com,outlook.office365.com"
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
         },
         {
             "action": "allow",
@@ -1484,7 +1493,10 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "udp",
-            "remote-hosts": "outlook.office.com,outlook.office365.com"
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
         }
     ]
 }
