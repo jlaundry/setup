@@ -1,0 +1,2001 @@
+{
+    "description": "",
+    "name": "Microsoft OneDrive",
+    "rules": [
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20015.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20016.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20017.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20021.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20055.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20030.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20031.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20015.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20016.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20017.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20021.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20055.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20030.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20031.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20015.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20016.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20017.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20021.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubprodbn20055.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20001.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20002.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20003.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20004.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20005.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20006.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20007.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20008.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20009.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20018.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20019.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20020.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20022.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20023.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20024.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20025.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20026.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20027.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20028.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20029.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20030.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20031.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20032.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20033.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20034.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20035.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20036.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20037.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20039.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20040.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20042.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20043.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20045.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20046.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20047.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20048.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20049.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20050.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20051.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20052.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20053.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclubproddm20054.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20038.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucprodbn20041.blob.core.windows.net"
+        }
+    ]
+}

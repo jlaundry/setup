@@ -1,0 +1,1420 @@
+{
+    "description": "",
+    "name": "Microsoft Teams",
+    "rules": [
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus15.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus16.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus17.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus15.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus16.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus17.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus15.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus16.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus17.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdaus00.australiasoutheast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdaus02.australiasoutheast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus00.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus01.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus02.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus03.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus04.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus05.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus06.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus07.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus08.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus09.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus10.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus11.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus12.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus13.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus14.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus00.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus01.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus02.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus03.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus04.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus05.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus06.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus07.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus08.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus09.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus10.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus11.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus12.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus13.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus14.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc00.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc01.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc02.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc03.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc04.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc05.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc06.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc07.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc00.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc02.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc03.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc05.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc06.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe00.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe01.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe02.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe03.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe04.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe05.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw00.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw01.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw02.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw03.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu00.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu01.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu02.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu03.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu04.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu05.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu06.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu07.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks00.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks01.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks02.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks03.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks04.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks05.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu00.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu01.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu02.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu03.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu04.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu05.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu06.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu07.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus00.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus01.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus02.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus03.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus04.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus05.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus06.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus07.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus08.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus09.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus10.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus11.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus12.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus13.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus14.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus15.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus16.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdcus17.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus15.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus16.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdeus17.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus15.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus16.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedsblobprdwus17.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdaus00.australiasoutheast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdaus02.australiasoutheast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus00.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus01.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus02.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus03.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus04.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus05.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus06.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus07.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus08.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus09.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus10.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus11.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus12.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus13.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdcus14.centralus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus00.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus01.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus02.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus03.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus04.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus05.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus06.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus07.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus08.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus09.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus10.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus11.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus12.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus13.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdeus14.eastus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc00.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc01.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc02.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc03.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc04.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc05.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc06.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdfrc07.francecentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc00.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc02.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc03.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc05.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdgwc06.germanywestcentral.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe00.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe01.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe02.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe03.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe04.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpe05.japaneast.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw00.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw01.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw02.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdjpw03.japanwest.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu00.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu01.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu02.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu03.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu04.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu05.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu06.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdneu07.northeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks00.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks01.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks02.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks03.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks04.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprduks05.uksouth.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu00.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu01.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu02.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu03.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu04.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu05.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu06.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdweu07.westeurope.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus00.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus01.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus02.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus03.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus04.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus05.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus06.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus07.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus08.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus09.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus10.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus11.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus12.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus13.westus.cloudapp.azure.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "onedscolprdwus14.westus.cloudapp.azure.com"
+        }
+    ]
+}
