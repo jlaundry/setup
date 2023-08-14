@@ -61,18 +61,27 @@ def create_msendpoint_rules(input_rule, process):
 
     for protocol in ("tcp", "udp"):
         if f"{protocol}Ports" in input_rule.keys():
+            ports = input_rule[f"{protocol}Ports"].split(",")
+
+            # Force remove http
+            try:
+                ports.remove('80')
+            except ValueError:
+                pass
+            ports = ",".join(ports)
+
             if 'ips' in input_rule.keys():
                 rules.append(create_rule(
                     process=process,
                     dest_ip=",".join(input_rule['ips']),
-                    ports=input_rule[f"{protocol}Ports"],
+                    ports=ports,
                     protocol=protocol,
                 ))
             if 'urls' in input_rule.keys():
                 rules.append(create_rule(
                     process=process,
                     dest_host=",".join(input_rule['urls']),
-                    ports=input_rule[f"{protocol}Ports"],
+                    ports=ports,
                     protocol=protocol,
                 ))
 
@@ -82,6 +91,7 @@ def create_teams_rules():
     rules = []
 
     teams = get_app_config("Microsoft Teams")
+    teams_helper = get_app_config("Microsoft Teams (Helper)")
     teams_ui = get_app_config("Microsoft Teams (UI)")
 
     # curl https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/onedrive_hosts.txt > onedrive_hosts.txt
@@ -104,6 +114,12 @@ def create_teams_rules():
     teams_ui_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (11, )]
     for process in teams_ui['processes']:
         for input_rule in teams_ui_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            rules += create_msendpoint_rules(input_rule, process)
+            
+    teams_helper_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (1, )]
+    for process in teams_helper['processes']:
+        for input_rule in teams_helper_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
             rules += create_msendpoint_rules(input_rule, process)
 
