@@ -12,13 +12,6 @@
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/mdmclient",
-      "protocol" : "tcp",
-      "remote-hosts" : "i.manage.microsoft.com"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
       "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
       "protocol" : "tcp",
       "remote-hosts" : "in.appcenter.ms"
