@@ -670,6 +670,13 @@
         {
             "action": "allow",
             "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucproddm20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "remote-hosts": "onedriveclubprodbn20001.blob.core.windows.net"
@@ -1335,6 +1342,13 @@
         {
             "action": "allow",
             "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucproddm20044.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "remote-hosts": "onedriveclubprodbn20001.blob.core.windows.net"
@@ -1996,6 +2010,13 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "remote-hosts": "onedriveclucprodbn20041.blob.core.windows.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "remote-hosts": "onedriveclucproddm20044.blob.core.windows.net"
         }
     ]
 }
