@@ -34,8 +34,16 @@
             "name": "Microsoft Teams",
             "processes": [
                 "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
-                "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\//Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper",
+                "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper",
                 "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)"  
+            ]
+        },
+        {
+            "name": "Microsoft Teams (Helper)",
+            "processes": [
+                "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+                "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper"
+                
             ]
         },
         {
