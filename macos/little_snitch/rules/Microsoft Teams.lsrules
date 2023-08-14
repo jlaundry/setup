@@ -222,6 +222,78 @@
         },
         {
             "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-domains": [
+                "lync.com",
+                "teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "remote-hosts": "teams.microsoft.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "remote-domains": [
+                "lync.com",
+                "teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "remote-hosts": "teams.microsoft.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-domains": [
+                "lync.com",
+                "teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
+            "protocol": "tcp",
+            "remote-hosts": "teams.microsoft.com"
+        },
+        {
+            "action": "allow",
             "ports": "3478,3479,3480,3481",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "udp",

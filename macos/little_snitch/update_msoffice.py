@@ -21,10 +21,8 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
         return rule
     elif dest_host is not None:
         hosts = []
-        for hostname in dest_host.split(","):
-            if hostname.startswith("*."):
-                raise Exception(f"host={hostname} remote-domains not implemented")
-            elif "*" in hostname:
+        for hostname in dest_host:
+            if "*" in hostname:
                 raise Exception(f"host={hostname} contains wildcard (not supported)")
             else:
                 hosts.append(hostname)
@@ -40,6 +38,25 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
             "remote-hosts": hosts
         }
         return rule
+    elif dest_domain is not None:
+        domains = []
+        for domainname in dest_domain:
+            if "*" in domainname:
+                raise Exception(f"domain={domainname} contains wildcard (not supported)")
+            else:
+                domains.append(domainname)
+
+        if len(domains) == 1:
+            domains = domains[0]
+
+        rule = {
+            "action": "allow",
+            "ports": ports,
+            "process": process,
+            "protocol": protocol,
+            "remote-domains": domains
+        }
+        return rule
     else:
         raise Exception("ip, host, or domain must be specified")
 
@@ -52,13 +69,12 @@ def create_onedrive_rules():
 
     onedrive = get_app_config("Microsoft OneDrive")
     for process in onedrive['processes']:
-        for host in onedrive_blobs:
-            rules.append(create_rule(
-                process=process,
-                dest_host=host,
-                ports="443",
-                protocol="tcp",
-            ))
+        rules.append(create_rule(
+            process=process,
+            dest_host=onedrive_blobs,
+            ports="443",
+            protocol="tcp",
+        ))
 
     output = {
         "description": "",
@@ -90,12 +106,27 @@ def create_msendpoint_rules(input_rule, process):
                     protocol=protocol,
                 ))
             if 'urls' in input_rule.keys():
-                rules.append(create_rule(
-                    process=process,
-                    dest_host=",".join(input_rule['urls']),
-                    ports=ports,
-                    protocol=protocol,
-                ))
+                domains = []
+                hosts = []
+                for url in input_rule['urls']:
+                    if url.startswith("*."):
+                        domains.append(url[2:])
+                    else:
+                        hosts.append(url)
+                if len(domains) > 0:
+                    rules.append(create_rule(
+                        process=process,
+                        dest_domain=domains,
+                        ports=ports,
+                        protocol=protocol,
+                    ))
+                if len(hosts) > 0:
+                    rules.append(create_rule(
+                        process=process,
+                        dest_host=hosts,
+                        ports=ports,
+                        protocol=protocol,
+                    ))
 
     return rules
 
@@ -111,17 +142,22 @@ def create_teams_rules():
         onedrive_hosts = [line.strip() for line in of.readlines()]
 
     for process in teams_ui['processes']:
-        for host in onedrive_hosts:
-            rules.append(create_rule(
-                process=process,
-                dest_host=host,
-                ports="443",
-                protocol="tcp",
-            ))
+        rules.append(create_rule(
+            process=process,
+            dest_host=onedrive_hosts,
+            ports="443",
+            protocol="tcp",
+        ))
 
     # curl https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7 > office.json
     with open("office.json", "r") as of:
         msoffice_endpoints_worldwide = json.load(of)
+
+    teams_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (12, )]
+    for process in teams['processes']:
+        for input_rule in teams_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            rules += create_msendpoint_rules(input_rule, process)
 
     teams_ui_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (11, )]
     for process in teams_ui['processes']:
