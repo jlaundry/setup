@@ -1,0 +1,62 @@
+{
+  "description" : "",
+  "name" : "Microsoft Intune",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/mdmclient",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.manage.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/mdmclient",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.manage.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "in.appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "self.events.data.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "login.microsoftonline.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "enterpriseregistration.windows.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "graph.windows.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-domains" : "manage.microsoft.com"
+    }
+  ]
+}
