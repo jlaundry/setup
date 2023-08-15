@@ -7,6 +7,7 @@
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
+            "owner": "me",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",
@@ -111,6 +112,7 @@
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
+            "owner": "me",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",
@@ -215,6 +217,7 @@
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
+            "owner": "me",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",

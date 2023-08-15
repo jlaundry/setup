@@ -9,15 +9,23 @@ def get_app_config(app_name):
 
     return [app for app in config['applications'] if app["name"] == app_name][0]
 
-def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None):
+def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None, owner="me", notes=None):
+
+    rule = {
+        "action": "allow",
+        "ports": ports,
+        "process": process,
+        "protocol": protocol,
+        "owner": owner,
+    }
+
+    if notes is not None:
+        rule['notes'] = notes
+
     if dest_ip is not None:
-        rule = {
-            "action": "allow",
-            "ports": ports,
-            "process": process,
-            "protocol": protocol,
-            "remote-addresses": dest_ip
-        }
+        if isinstance(dest_ip, list):
+            dest_ip = ",".join(dest_ip)
+        rule['remote-addresses'] = dest_ip
         return rule
     elif dest_host is not None:
         hosts = []
@@ -30,13 +38,7 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
         if len(hosts) == 1:
             hosts = hosts[0]
 
-        rule = {
-            "action": "allow",
-            "ports": ports,
-            "process": process,
-            "protocol": protocol,
-            "remote-hosts": hosts
-        }
+        rule['remote-hosts'] = hosts
         return rule
     elif dest_domain is not None:
         domains = []
@@ -49,13 +51,7 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
         if len(domains) == 1:
             domains = domains[0]
 
-        rule = {
-            "action": "allow",
-            "ports": ports,
-            "process": process,
-            "protocol": protocol,
-            "remote-domains": domains
-        }
+        rule["remote-domains"] = domains
         return rule
     else:
         raise Exception("ip, host, or domain must be specified")
@@ -84,7 +80,7 @@ def create_onedrive_rules():
 
     return json.dumps(output, indent=4)
 
-def create_msendpoint_rules(input_rule, process):
+def create_msendpoint_rules(input_rule, process, notes):
     rules = []
 
     for protocol in ("tcp", "udp"):
@@ -104,6 +100,7 @@ def create_msendpoint_rules(input_rule, process):
                     dest_ip=",".join(input_rule['ips']),
                     ports=ports,
                     protocol=protocol,
+                    notes=notes,
                 ))
             if 'urls' in input_rule.keys():
                 domains = []
@@ -119,6 +116,7 @@ def create_msendpoint_rules(input_rule, process):
                         dest_domain=domains,
                         ports=ports,
                         protocol=protocol,
+                        notes=notes,
                     ))
                 if len(hosts) > 0:
                     rules.append(create_rule(
@@ -126,6 +124,7 @@ def create_msendpoint_rules(input_rule, process):
                         dest_host=hosts,
                         ports=ports,
                         protocol=protocol,
+                        notes=notes,
                     ))
 
     return rules
@@ -147,6 +146,7 @@ def create_teams_rules():
             dest_host=onedrive_hosts,
             ports="443",
             protocol="tcp",
+            notes=None,
         ))
 
     # curl https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7 > office.json
@@ -157,19 +157,22 @@ def create_teams_rules():
     for process in teams['processes']:
         for input_rule in teams_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
-            rules += create_msendpoint_rules(input_rule, process)
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
 
     teams_ui_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (11, )]
     for process in teams_ui['processes']:
         for input_rule in teams_ui_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
-            rules += create_msendpoint_rules(input_rule, process)
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
             
     teams_helper_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (1, )]
     for process in teams_helper['processes']:
         for input_rule in teams_helper_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
-            rules += create_msendpoint_rules(input_rule, process)
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
 
     output = {
         "description": "",

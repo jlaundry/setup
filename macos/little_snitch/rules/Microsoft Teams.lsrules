@@ -7,6 +7,7 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
             "remote-hosts": [
                 "onedsblobprdcus15.centralus.cloudapp.azure.com",
                 "onedsblobprdcus16.centralus.cloudapp.azure.com",
@@ -116,6 +117,7 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "tcp",
+            "owner": "me",
             "remote-hosts": [
                 "onedsblobprdcus15.centralus.cloudapp.azure.com",
                 "onedsblobprdcus16.centralus.cloudapp.azure.com",
@@ -225,6 +227,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
         },
         {
@@ -232,6 +236,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-domains": [
                 "lync.com",
                 "teams.microsoft.com"
@@ -242,6 +248,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-hosts": "teams.microsoft.com"
         },
         {
@@ -249,6 +257,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
         },
         {
@@ -256,6 +266,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-domains": [
                 "lync.com",
                 "teams.microsoft.com"
@@ -266,6 +278,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-hosts": "teams.microsoft.com"
         },
         {
@@ -273,6 +287,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/39,2620:1ec:6::/48,2620:1ec:40::/42"
         },
         {
@@ -280,6 +296,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-domains": [
                 "lync.com",
                 "teams.microsoft.com"
@@ -290,6 +308,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 12 - Skype for Business Online and Microsoft Teams",
             "remote-hosts": "teams.microsoft.com"
         },
         {
@@ -297,6 +317,8 @@
             "ports": "3478,3479,3480,3481",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 11 - Skype for Business Online and Microsoft Teams",
             "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/39"
         },
         {
@@ -304,6 +326,8 @@
             "ports": "3478,3479,3480,3481",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app/Contents/MacOS/Microsoft Teams Helper (Renderer)",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 11 - Skype for Business Online and Microsoft Teams",
             "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/39"
         },
         {
@@ -311,6 +335,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
         },
         {
@@ -318,6 +344,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-hosts": [
                 "outlook.office.com",
                 "outlook.office365.com"
@@ -328,6 +356,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
         },
         {
@@ -335,6 +365,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-hosts": [
                 "outlook.office.com",
                 "outlook.office365.com"
@@ -345,6 +377,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
         },
         {
@@ -352,6 +386,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-hosts": [
                 "outlook.office.com",
                 "outlook.office365.com"
@@ -362,6 +398,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
         },
         {
@@ -369,6 +407,8 @@
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "udp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 1 - Exchange Online",
             "remote-hosts": [
                 "outlook.office.com",
                 "outlook.office365.com"
