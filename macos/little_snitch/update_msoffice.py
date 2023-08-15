@@ -144,6 +144,7 @@ def create_office_rules():
     rules = []
 
     office_apps = get_app_config("Microsoft Office")
+    onenote = get_app_config("Microsoft OneNote")
 
     with open("office.json", "r") as of:
         msoffice_endpoints_worldwide = json.load(of)
@@ -151,6 +152,13 @@ def create_office_rules():
     office_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in BASE_OFFICE_RULE_IDS]
     for process in office_apps['processes']:
         for input_rule in office_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
+
+    onenote_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (49, )]
+    for process in onenote['processes']:
+        for input_rule in onenote_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
             notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
             rules += create_msendpoint_rules(input_rule, process, notes)

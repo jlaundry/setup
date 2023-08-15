@@ -797,6 +797,15 @@
             "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 49 - Microsoft 365 Common and Office Online",
+            "remote-domains": "onenote.com"
         }
     ]
 }

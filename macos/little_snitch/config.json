@@ -18,6 +18,12 @@
             ]
         },
         {
+            "name": "Microsoft OneNote",
+            "processes": [
+                "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote"
+            ]
+        },
+        {
             "name": "Microsoft Teams",
             "processes": [
                 "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
