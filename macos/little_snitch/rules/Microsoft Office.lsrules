@@ -128,6 +128,37 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "hip.live.com",
+                "microsoftonline.com",
+                "microsoftonline-p.com",
+                "msauth.net",
+                "msauthimages.net",
+                "msecnd.net",
+                "msftauth.net",
+                "msftauthimages.net",
+                "phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net",
+                "policykeyservice.dc.ad.msft.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
@@ -327,6 +358,37 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "hip.live.com",
+                "microsoftonline.com",
+                "microsoftonline-p.com",
+                "msauth.net",
+                "msauthimages.net",
+                "msecnd.net",
+                "msftauth.net",
+                "msftauthimages.net",
+                "phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net",
+                "policykeyservice.dc.ad.msft.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
@@ -526,6 +588,37 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "hip.live.com",
+                "microsoftonline.com",
+                "microsoftonline-p.com",
+                "msauth.net",
+                "msauthimages.net",
+                "msecnd.net",
+                "msftauth.net",
+                "msftauthimages.net",
+                "phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net",
+                "policykeyservice.dc.ad.msft.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
@@ -717,6 +810,37 @@
                 "nexus.microsoftonline-p.com",
                 "passwordreset.microsoftonline.com",
                 "provisioningapi.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "hip.live.com",
+                "microsoftonline.com",
+                "microsoftonline-p.com",
+                "msauth.net",
+                "msauthimages.net",
+                "msecnd.net",
+                "msftauth.net",
+                "msftauthimages.net",
+                "phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net",
+                "policykeyservice.dc.ad.msft.net"
             ]
         },
         {

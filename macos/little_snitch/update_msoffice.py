@@ -1,7 +1,7 @@
 
 import json
 
-BASE_OFFICE_RULE_IDS = (9, 39, 46, 47, 56, 69, 71, 97, 114, 147)
+BASE_OFFICE_RULE_IDS = (9, 39, 46, 47, 56, 59, 69, 71, 97, 114, 147)
 
 def get_app_config(app_name):
     with open("config.json", "r") as of:
