@@ -75,7 +75,7 @@ def create_onedrive_rules():
     with open("office.json", "r") as of:
         msoffice_endpoints_worldwide = json.load(of)
 
-    onedrive_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (32, 36, 69, )]
+    onedrive_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (32, 35, 36, 46, 47, 56, 69, )]
     for process in onedrive['processes']:
         for input_rule in onedrive_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
