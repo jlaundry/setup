@@ -1,33 +1,20 @@
 {
     "applications": [
         {
-            "name": "Microsoft Word",
+            "name": "Microsoft Office",
             "processes": [
-                
+                "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+                "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote",
+                "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
+                "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word"
             ]
         },
         {
-            "name": "Microsoft Excel",
+            "name": "Microsoft OneDrive",
             "processes": [
-                
-            ]
-        },
-        {
-            "name": "Microsoft PowerPoint",
-            "processes": [
-                
-            ]
-        },
-        {
-            "name": "Microsoft SharePoint",
-            "processes": [
-                
-            ]
-        },
-        {
-            "name": "Microsoft OneNote",
-            "processes": [
-                
+                "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
+                "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
+                "\/Applications\/OneDrive.app\/Contents\/Microsoft SharePoint.app\/Contents\/MacOS\/Microsoft SharePoint"
             ]
         },
         {
@@ -52,14 +39,6 @@
                 "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
                 "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)"
                 
-            ]
-        },
-        {
-            "name": "Microsoft OneDrive",
-            "processes": [
-                "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
-                "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
-                "\/Applications\/OneDrive.app\/Contents\/Microsoft SharePoint.app\/Contents\/MacOS\/Microsoft SharePoint"
             ]
         },
         {

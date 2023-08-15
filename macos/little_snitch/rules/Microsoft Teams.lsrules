@@ -375,6 +375,64 @@
         {
             "action": "allow",
             "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office365.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "account.live.com",
+                "login.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "appex.bing.com",
+                "appex-rf.msn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "c.bing.com",
+                "c.live.com",
+                "d.docs.live.net",
+                "docs.live.net",
+                "partnerservices.getmicrosoftkey.com",
+                "signup.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
             "owner": "me",
@@ -412,6 +470,64 @@
             "remote-hosts": [
                 "outlook.office.com",
                 "outlook.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office365.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "account.live.com",
+                "login.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "appex.bing.com",
+                "appex-rf.msn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "c.bing.com",
+                "c.live.com",
+                "d.docs.live.net",
+                "docs.live.net",
+                "partnerservices.getmicrosoftkey.com",
+                "signup.live.com"
             ]
         }
     ]

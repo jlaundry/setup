@@ -316,6 +316,78 @@
                 "onedriveclucprodbn20041.blob.core.windows.net",
                 "onedriveclucproddm20044.blob.core.windows.net"
             ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "ssw.live.com",
+                "storage.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "g.live.com",
+                "oneclient.sfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "ssw.live.com",
+                "storage.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "g.live.com",
+                "oneclient.sfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "ssw.live.com",
+                "storage.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "remote-hosts": [
+                "g.live.com",
+                "oneclient.sfx.ms"
+            ]
         }
     ]
 }

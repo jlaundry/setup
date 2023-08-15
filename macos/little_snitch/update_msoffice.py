@@ -1,7 +1,7 @@
 
 import json
 
-
+BASE_OFFICE_RULE_IDS = (46, 47, 71, 97, 114)
 
 def get_app_config(app_name):
     with open("config.json", "r") as of:
@@ -72,6 +72,17 @@ def create_onedrive_rules():
             protocol="tcp",
         ))
 
+    with open("office.json", "r") as of:
+        msoffice_endpoints_worldwide = json.load(of)
+
+    onedrive_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (32, 36, )]
+    for process in onedrive['processes']:
+        for input_rule in onedrive_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
+
+
     output = {
         "description": "",
         "name": "Microsoft OneDrive",
@@ -129,6 +140,29 @@ def create_msendpoint_rules(input_rule, process, notes):
 
     return rules
 
+def create_office_rules():
+    rules = []
+
+    office_apps = get_app_config("Microsoft Office")
+
+    with open("office.json", "r") as of:
+        msoffice_endpoints_worldwide = json.load(of)
+
+    office_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in BASE_OFFICE_RULE_IDS]
+    for process in office_apps['processes']:
+        for input_rule in office_rules:
+            print(f"Working on rule.id={input_rule['id']} process={process}")
+            notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
+            rules += create_msendpoint_rules(input_rule, process, notes)
+
+    output = {
+        "description": "",
+        "name": "Microsoft Office",
+        "rules": rules,
+    }
+
+    return json.dumps(output, indent=4)
+
 def create_teams_rules():
     rules = []
 
@@ -167,7 +201,8 @@ def create_teams_rules():
             notes = f"https://endpoints.office.com/endpoints/worldwide rule {input_rule['id']} - {input_rule['serviceAreaDisplayName']}"
             rules += create_msendpoint_rules(input_rule, process, notes)
             
-    teams_helper_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (1, )]
+    combined_teams_helper_rule_ids = (1, ) + BASE_OFFICE_RULE_IDS
+    teams_helper_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in combined_teams_helper_rule_ids]
     for process in teams_helper['processes']:
         for input_rule in teams_helper_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
@@ -181,6 +216,9 @@ def create_teams_rules():
     }
 
     return json.dumps(output, indent=4)
+
+with open("rules/Microsoft Office.lsrules", "w") as of:
+    of.write(create_office_rules())
 
 with open("rules/Microsoft OneDrive.lsrules", "w") as of:
     of.write(create_onedrive_rules())
