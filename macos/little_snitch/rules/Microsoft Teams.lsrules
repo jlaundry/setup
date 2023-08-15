@@ -378,6 +378,24 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "remote-domains": "protection.outlook.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
@@ -472,6 +490,18 @@
                 "nexus.microsoftonline-p.com",
                 "passwordreset.microsoftonline.com",
                 "provisioningapi.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "aria.microsoft.com",
+                "events.data.microsoft.com"
             ]
         },
         {
@@ -589,6 +619,24 @@
             "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "remote-domains": "protection.outlook.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
@@ -683,6 +731,18 @@
                 "nexus.microsoftonline-p.com",
                 "passwordreset.microsoftonline.com",
                 "provisioningapi.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app/Contents/MacOS/Microsoft Teams Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "aria.microsoft.com",
+                "events.data.microsoft.com"
             ]
         },
         {

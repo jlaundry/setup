@@ -1,7 +1,7 @@
 
 import json
 
-BASE_OFFICE_RULE_IDS = (39, 46, 47, 56, 71, 97, 114, 147)
+BASE_OFFICE_RULE_IDS = (9, 39, 46, 47, 56, 69, 71, 97, 114, 147)
 
 def get_app_config(app_name):
     with open("config.json", "r") as of:
@@ -75,7 +75,7 @@ def create_onedrive_rules():
     with open("office.json", "r") as of:
         msoffice_endpoints_worldwide = json.load(of)
 
-    onedrive_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (32, 36, )]
+    onedrive_rules = [x for x in msoffice_endpoints_worldwide if x['id'] in (32, 36, 69, )]
     for process in onedrive['processes']:
         for input_rule in onedrive_rules:
             print(f"Working on rule.id={input_rule['id']} process={process}")
