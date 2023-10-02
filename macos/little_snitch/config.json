@@ -1,56 +1,167 @@
 {
     "applications": [
         {
+            "filename": "rules\/Microsoft Defender.lsrules",
+            "name": "Microsoft Defender",
+            "processes": [
+                "\/Applications\/Microsoft Defender.app\/Contents\/MacOS\/wdavdaemon"
+            ],
+            "rules": [
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/v20.json",
+                    "rule_ids": [
+                        1,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "filename":"rules\/Microsoft Office.lsrules",
             "name": "Microsoft Office",
             "processes": [
                 "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
                 "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote",
                 "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
                 "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word"
+            ],
+            "rules": [
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        9,
+                        39,
+                        46,
+                        47,
+                        56,
+                        59,
+                        69,
+                        71,
+                        97,
+                        114,
+                        147
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        49
+                    ],
+                    "processes": [
+                        "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote"
+                    ]
+                }
             ]
         },
         {
+            "filename":"rules\/Microsoft OneDrive.lsrules",
             "name": "Microsoft OneDrive",
             "processes": [
                 "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
                 "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
                 "\/Applications\/OneDrive.app\/Contents\/Microsoft SharePoint.app\/Contents\/MacOS\/Microsoft SharePoint"
+            ],
+            "rules": [
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/onedrive_blobs.json",
+                    "rule_ids": [
+                        1
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        32,
+                        35,
+                        36,
+                        46,
+                        47,
+                        56,
+                        69
+                    ]
+                }
             ]
         },
         {
-            "name": "Microsoft OneNote",
-            "processes": [
-                "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote"
-            ]
-        },
-        {
+            "filename": "rules\/Microsoft Teams.lsrules",
             "name": "Microsoft Teams",
             "processes": [
                 "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
                 "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper",
                 "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)"  
-            ]
-        },
-        {
-            "name": "Microsoft Teams (Helper)",
-            "processes": [
-                "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
-                "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper"
-                
-            ]
-        },
-        {
-            "name": "Microsoft Teams (UI)",
-            "processes": [
-                "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
-                "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)"
-                
+            ],
+            "rules": [
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/v20.json",
+                    "rule_ids": [
+                        1,
+                        2
+                    ],
+                    "processes": [
+                        "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+                        "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)" 
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        12
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        11
+                    ],
+                    "processes": [
+                        "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+                        "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper (Renderer).app\/Contents\/MacOS\/Microsoft Teams Helper (Renderer)"
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        1,
+                        9,
+                        39,
+                        46,
+                        47,
+                        56,
+                        59,
+                        69,
+                        71,
+                        97,
+                        114,
+                        147
+                    ]
+                    ,
+                    "processes": [
+                        "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/Teams",
+                        "\/Applications\/Microsoft Teams.app\/Contents\/Frameworks\/Microsoft Teams Helper.app\/Contents\/MacOS\/Microsoft Teams Helper"
+                    ]
+                }
             ]
         },
         {
             "name": "Microsoft Update Assistant",
             "processes": [
                 
+            ]
+        },
+        {
+            "filename": "rules\/Visual Studio Code.lsrules",
+            "name": "Visual Studio Code",
+            "processes": [
+                "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron"
+            ],
+            "rules": [
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/v20.json",
+                    "rule_ids": [
+                        1,
+                        2
+                    ]
+                }
             ]
         }
     ]

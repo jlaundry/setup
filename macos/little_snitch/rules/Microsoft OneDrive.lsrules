@@ -1,6 +1,6 @@
 {
-    "description": "",
     "name": "Microsoft OneDrive",
+    "description": "",
     "rules": [
         {
             "action": "allow",
@@ -8,6 +8,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "rule 1 - OneDrive for Business Blob Storage",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",
@@ -226,6 +227,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "rule 1 - OneDrive for Business Blob Storage",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",
@@ -444,6 +446,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "rule 1 - OneDrive for Business Blob Storage",
             "remote-hosts": [
                 "onedriveclubprodbn20001.blob.core.windows.net",
                 "onedriveclubprodbn20002.blob.core.windows.net",
@@ -662,7 +665,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 32 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "ssw.live.com",
                 "storage.live.com"
@@ -674,7 +677,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-domains": "wns.windows.com"
         },
         {
@@ -683,7 +686,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "admin.onedrive.com",
                 "officeclient.microsoft.com"
@@ -695,7 +698,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 36 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "g.live.com",
                 "oneclient.sfx.ms"
@@ -707,7 +710,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -716,7 +719,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -728,7 +731,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -737,7 +740,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -746,7 +749,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -755,7 +758,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -768,7 +771,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -800,7 +803,7 @@
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -812,7 +815,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 32 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "ssw.live.com",
                 "storage.live.com"
@@ -824,7 +827,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-domains": "wns.windows.com"
         },
         {
@@ -833,7 +836,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "admin.onedrive.com",
                 "officeclient.microsoft.com"
@@ -845,7 +848,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 36 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "g.live.com",
                 "oneclient.sfx.ms"
@@ -857,7 +860,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -866,7 +869,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -878,7 +881,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -887,7 +890,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -896,7 +899,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -905,7 +908,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -918,7 +921,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -950,7 +953,7 @@
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -962,7 +965,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 32 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 32 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "ssw.live.com",
                 "storage.live.com"
@@ -974,7 +977,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-domains": "wns.windows.com"
         },
         {
@@ -983,7 +986,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 35 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 35 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "admin.onedrive.com",
                 "officeclient.microsoft.com"
@@ -995,7 +998,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 36 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 36 - SharePoint Online and OneDrive for Business",
             "remote-hosts": [
                 "g.live.com",
                 "oneclient.sfx.ms"
@@ -1007,7 +1010,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -1016,7 +1019,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -1028,7 +1031,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -1037,7 +1040,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -1046,7 +1049,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -1055,7 +1058,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -1068,7 +1071,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -1100,7 +1103,7 @@
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"

@@ -1,6 +1,6 @@
 {
-    "description": "",
     "name": "Microsoft Office",
+    "description": "",
     "rules": [
         {
             "action": "allow",
@@ -8,7 +8,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
         },
         {
@@ -17,7 +17,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-domains": "protection.outlook.com"
         },
         {
@@ -26,7 +26,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
         {
@@ -35,7 +35,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -44,7 +44,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -56,7 +56,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -65,7 +65,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -74,7 +74,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -83,7 +83,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -96,7 +96,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -128,7 +128,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
                 "microsoftonline.com",
@@ -147,7 +147,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "enterpriseregistration.windows.net",
                 "policykeyservice.dc.ad.msft.net"
@@ -159,7 +159,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -171,7 +171,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "notes": "rule 71 - Microsoft 365 Common and Office Online",
             "remote-domains": "office365.com"
         },
         {
@@ -180,7 +180,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "notes": "rule 97 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.live.com",
                 "login.live.com"
@@ -192,7 +192,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "appex.bing.com",
                 "appex-rf.msn.com"
@@ -204,7 +204,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "c.bing.com",
                 "c.live.com",
@@ -220,7 +220,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.com"
         },
         {
@@ -229,7 +229,7 @@
             "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
         },
         {
@@ -238,7 +238,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
         },
         {
@@ -247,7 +247,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-domains": "protection.outlook.com"
         },
         {
@@ -256,7 +256,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
         {
@@ -265,7 +265,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -274,7 +274,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -286,7 +286,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -295,7 +295,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -304,7 +304,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -313,7 +313,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -326,7 +326,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -358,7 +358,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
                 "microsoftonline.com",
@@ -377,7 +377,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "enterpriseregistration.windows.net",
                 "policykeyservice.dc.ad.msft.net"
@@ -389,7 +389,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -401,7 +401,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "notes": "rule 71 - Microsoft 365 Common and Office Online",
             "remote-domains": "office365.com"
         },
         {
@@ -410,7 +410,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "notes": "rule 97 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.live.com",
                 "login.live.com"
@@ -422,7 +422,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "appex.bing.com",
                 "appex-rf.msn.com"
@@ -434,7 +434,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "c.bing.com",
                 "c.live.com",
@@ -450,7 +450,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.com"
         },
         {
@@ -459,7 +459,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
         },
         {
@@ -468,7 +468,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
         },
         {
@@ -477,7 +477,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-domains": "protection.outlook.com"
         },
         {
@@ -486,7 +486,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
         {
@@ -495,7 +495,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -504,7 +504,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -516,7 +516,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -525,7 +525,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -534,7 +534,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -543,7 +543,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -556,7 +556,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -588,7 +588,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
                 "microsoftonline.com",
@@ -607,7 +607,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "enterpriseregistration.windows.net",
                 "policykeyservice.dc.ad.msft.net"
@@ -619,7 +619,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -631,7 +631,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "notes": "rule 71 - Microsoft 365 Common and Office Online",
             "remote-domains": "office365.com"
         },
         {
@@ -640,7 +640,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "notes": "rule 97 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.live.com",
                 "login.live.com"
@@ -652,7 +652,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "appex.bing.com",
                 "appex-rf.msn.com"
@@ -664,7 +664,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "c.bing.com",
                 "c.live.com",
@@ -680,7 +680,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.com"
         },
         {
@@ -689,7 +689,7 @@
             "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
         },
         {
@@ -698,7 +698,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
         },
         {
@@ -707,7 +707,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 9 - Exchange Online",
+            "notes": "rule 9 - Exchange Online",
             "remote-domains": "protection.outlook.com"
         },
         {
@@ -716,7 +716,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 39 - SharePoint Online and OneDrive for Business",
+            "notes": "rule 39 - SharePoint Online and OneDrive for Business",
             "remote-domains": "svc.ms"
         },
         {
@@ -725,7 +725,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
@@ -734,7 +734,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "officeapps.live.com",
                 "online.office.com"
@@ -746,7 +746,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 46 - Microsoft 365 Common and Office Online",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
             "remote-hosts": "office.live.com"
         },
         {
@@ -755,7 +755,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 47 - Microsoft 365 Common and Office Online",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
         },
         {
@@ -764,7 +764,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
         },
         {
@@ -773,7 +773,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "auth.microsoft.com",
                 "msftidentity.com",
@@ -786,7 +786,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 56 - Microsoft 365 Common and Office Online",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com",
                 "accounts.accesscontrol.windows.net",
@@ -818,7 +818,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
                 "microsoftonline.com",
@@ -837,7 +837,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 59 - Microsoft 365 Common and Office Online",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "enterpriseregistration.windows.net",
                 "policykeyservice.dc.ad.msft.net"
@@ -849,7 +849,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 69 - Microsoft 365 Common and Office Online",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
@@ -861,7 +861,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 71 - Microsoft 365 Common and Office Online",
+            "notes": "rule 71 - Microsoft 365 Common and Office Online",
             "remote-domains": "office365.com"
         },
         {
@@ -870,7 +870,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 97 - Microsoft 365 Common and Office Online",
+            "notes": "rule 97 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "account.live.com",
                 "login.live.com"
@@ -882,7 +882,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "appex.bing.com",
                 "appex-rf.msn.com"
@@ -894,7 +894,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 114 - Microsoft 365 Common and Office Online",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-hosts": [
                 "c.bing.com",
                 "c.live.com",
@@ -910,7 +910,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.com"
         },
         {
@@ -919,7 +919,7 @@
             "process": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 147 - Microsoft 365 Common and Office Online",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
         },
         {
@@ -928,7 +928,7 @@
             "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "https://endpoints.office.com/endpoints/worldwide rule 49 - Microsoft 365 Common and Office Online",
+            "notes": "rule 49 - Microsoft 365 Common and Office Online",
             "remote-domains": "onenote.com"
         }
     ]
