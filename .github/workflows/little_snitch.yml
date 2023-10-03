@@ -9,6 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r macos/little_snitch/requirements.txt
+
       - name: Create PR for Little Snitch rules updates
         id: push_image_info
         env:
