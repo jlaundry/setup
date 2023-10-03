@@ -13,6 +13,16 @@
                         1,
                         2
                     ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/defender_endpoint.json",
+                    "rule_ids": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
                 }
             ]
         },
