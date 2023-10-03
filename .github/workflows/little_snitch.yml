@@ -22,6 +22,7 @@ jobs:
           git config pull.rebase false
           branch=automated-lsrules-update-$GITHUB_RUN_ID
           git checkout -b $branch
+          cd macos/little_snitch && python3 update_microsoft.py && cd ../..
           message='Automated lsrules update'
           # Add / update and commit
           git add macos/little_snitch/rules/*.lsrules
