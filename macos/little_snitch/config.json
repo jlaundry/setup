@@ -154,6 +154,41 @@
             ]
         },
         {
+            "filename": "rules\/Microsoft Teams (work or school).lsrules",
+            "name": "Microsoft Teams (work or school)",
+            "processes": [
+                "\/Applications\/Microsoft Teams (work or school).app\/Contents\/MacOS\/MSTeams"  
+            ],
+            "rules": [
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/v20.json",
+                    "rule_ids": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        1,
+                        9,
+                        11,
+                        12,
+                        39,
+                        46,
+                        47,
+                        56,
+                        59,
+                        69,
+                        71,
+                        97,
+                        114,
+                        147
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Microsoft Update Assistant",
             "processes": [
                 
