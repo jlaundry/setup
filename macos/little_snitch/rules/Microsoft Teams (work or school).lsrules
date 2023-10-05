@@ -1,0 +1,445 @@
+{
+    "name": "Microsoft Teams (work or school)",
+    "description": "",
+    "rules": [
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Data Management service",
+            "remote-hosts": "v20.events.data.microsoft.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 2 - Data Management service hosts",
+            "remote-hosts": [
+                "onedsblobprdcus15.centralus.cloudapp.azure.com",
+                "onedsblobprdcus16.centralus.cloudapp.azure.com",
+                "onedsblobprdcus17.centralus.cloudapp.azure.com",
+                "onedsblobprdeus15.eastus.cloudapp.azure.com",
+                "onedsblobprdeus16.eastus.cloudapp.azure.com",
+                "onedsblobprdeus17.eastus.cloudapp.azure.com",
+                "onedsblobprdwus15.westus.cloudapp.azure.com",
+                "onedsblobprdwus16.westus.cloudapp.azure.com",
+                "onedsblobprdwus17.westus.cloudapp.azure.com",
+                "onedscolprdaus00.australiasoutheast.cloudapp.azure.com",
+                "onedscolprdaus02.australiasoutheast.cloudapp.azure.com",
+                "onedscolprdcus00.centralus.cloudapp.azure.com",
+                "onedscolprdcus01.centralus.cloudapp.azure.com",
+                "onedscolprdcus02.centralus.cloudapp.azure.com",
+                "onedscolprdcus03.centralus.cloudapp.azure.com",
+                "onedscolprdcus04.centralus.cloudapp.azure.com",
+                "onedscolprdcus05.centralus.cloudapp.azure.com",
+                "onedscolprdcus06.centralus.cloudapp.azure.com",
+                "onedscolprdcus07.centralus.cloudapp.azure.com",
+                "onedscolprdcus08.centralus.cloudapp.azure.com",
+                "onedscolprdcus09.centralus.cloudapp.azure.com",
+                "onedscolprdcus10.centralus.cloudapp.azure.com",
+                "onedscolprdcus11.centralus.cloudapp.azure.com",
+                "onedscolprdcus12.centralus.cloudapp.azure.com",
+                "onedscolprdcus13.centralus.cloudapp.azure.com",
+                "onedscolprdcus14.centralus.cloudapp.azure.com",
+                "onedscolprdeus00.eastus.cloudapp.azure.com",
+                "onedscolprdeus01.eastus.cloudapp.azure.com",
+                "onedscolprdeus02.eastus.cloudapp.azure.com",
+                "onedscolprdeus03.eastus.cloudapp.azure.com",
+                "onedscolprdeus04.eastus.cloudapp.azure.com",
+                "onedscolprdeus05.eastus.cloudapp.azure.com",
+                "onedscolprdeus06.eastus.cloudapp.azure.com",
+                "onedscolprdeus07.eastus.cloudapp.azure.com",
+                "onedscolprdeus08.eastus.cloudapp.azure.com",
+                "onedscolprdeus09.eastus.cloudapp.azure.com",
+                "onedscolprdeus10.eastus.cloudapp.azure.com",
+                "onedscolprdeus11.eastus.cloudapp.azure.com",
+                "onedscolprdeus12.eastus.cloudapp.azure.com",
+                "onedscolprdeus13.eastus.cloudapp.azure.com",
+                "onedscolprdeus14.eastus.cloudapp.azure.com",
+                "onedscolprdfrc00.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc01.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc02.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc03.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc04.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc05.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc06.francecentral.cloudapp.azure.com",
+                "onedscolprdfrc07.francecentral.cloudapp.azure.com",
+                "onedscolprdgwc00.germanywestcentral.cloudapp.azure.com",
+                "onedscolprdgwc02.germanywestcentral.cloudapp.azure.com",
+                "onedscolprdgwc03.germanywestcentral.cloudapp.azure.com",
+                "onedscolprdgwc05.germanywestcentral.cloudapp.azure.com",
+                "onedscolprdgwc06.germanywestcentral.cloudapp.azure.com",
+                "onedscolprdjpe00.japaneast.cloudapp.azure.com",
+                "onedscolprdjpe01.japaneast.cloudapp.azure.com",
+                "onedscolprdjpe02.japaneast.cloudapp.azure.com",
+                "onedscolprdjpe03.japaneast.cloudapp.azure.com",
+                "onedscolprdjpe04.japaneast.cloudapp.azure.com",
+                "onedscolprdjpe05.japaneast.cloudapp.azure.com",
+                "onedscolprdjpw00.japanwest.cloudapp.azure.com",
+                "onedscolprdjpw01.japanwest.cloudapp.azure.com",
+                "onedscolprdjpw02.japanwest.cloudapp.azure.com",
+                "onedscolprdjpw03.japanwest.cloudapp.azure.com",
+                "onedscolprdneu00.northeurope.cloudapp.azure.com",
+                "onedscolprdneu01.northeurope.cloudapp.azure.com",
+                "onedscolprdneu02.northeurope.cloudapp.azure.com",
+                "onedscolprdneu03.northeurope.cloudapp.azure.com",
+                "onedscolprdneu04.northeurope.cloudapp.azure.com",
+                "onedscolprdneu05.northeurope.cloudapp.azure.com",
+                "onedscolprdneu06.northeurope.cloudapp.azure.com",
+                "onedscolprdneu07.northeurope.cloudapp.azure.com",
+                "onedscolprdneu08.northeurope.cloudapp.azure.com",
+                "onedscolprdneu09.northeurope.cloudapp.azure.com",
+                "onedscolprdneu10.northeurope.cloudapp.azure.com",
+                "onedscolprdneu11.northeurope.cloudapp.azure.com",
+                "onedscolprduks00.uksouth.cloudapp.azure.com",
+                "onedscolprduks01.uksouth.cloudapp.azure.com",
+                "onedscolprduks02.uksouth.cloudapp.azure.com",
+                "onedscolprduks03.uksouth.cloudapp.azure.com",
+                "onedscolprduks04.uksouth.cloudapp.azure.com",
+                "onedscolprduks05.uksouth.cloudapp.azure.com",
+                "onedscolprdweu00.westeurope.cloudapp.azure.com",
+                "onedscolprdweu01.westeurope.cloudapp.azure.com",
+                "onedscolprdweu02.westeurope.cloudapp.azure.com",
+                "onedscolprdweu03.westeurope.cloudapp.azure.com",
+                "onedscolprdweu04.westeurope.cloudapp.azure.com",
+                "onedscolprdweu05.westeurope.cloudapp.azure.com",
+                "onedscolprdweu06.westeurope.cloudapp.azure.com",
+                "onedscolprdweu07.westeurope.cloudapp.azure.com",
+                "onedscolprdweu11.westeurope.cloudapp.azure.com",
+                "onedscolprdwus00.westus.cloudapp.azure.com",
+                "onedscolprdwus01.westus.cloudapp.azure.com",
+                "onedscolprdwus02.westus.cloudapp.azure.com",
+                "onedscolprdwus03.westus.cloudapp.azure.com",
+                "onedscolprdwus04.westus.cloudapp.azure.com",
+                "onedscolprdwus05.westus.cloudapp.azure.com",
+                "onedscolprdwus06.westus.cloudapp.azure.com",
+                "onedscolprdwus07.westus.cloudapp.azure.com",
+                "onedscolprdwus08.westus.cloudapp.azure.com",
+                "onedscolprdwus09.westus.cloudapp.azure.com",
+                "onedscolprdwus10.westus.cloudapp.azure.com",
+                "onedscolprdwus11.westus.cloudapp.azure.com",
+                "onedscolprdwus12.westus.cloudapp.azure.com",
+                "onedscolprdwus13.westus.cloudapp.azure.com",
+                "onedscolprdwus14.westus.cloudapp.azure.com",
+                "onedscolprdwus15.westus.cloudapp.azure.com",
+                "onedscolprdwus16.westus.cloudapp.azure.com",
+                "onedscolprdwus17.westus.cloudapp.azure.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Exchange Online",
+            "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Exchange Online",
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 1 - Exchange Online",
+            "remote-addresses": "13.107.6.152/31,13.107.18.10/31,13.107.128.0/22,23.103.160.0/20,40.96.0.0/13,40.104.0.0/15,52.96.0.0/14,131.253.33.215/32,132.245.0.0/16,150.171.32.0/22,204.79.197.215/32,2603:1006::/40,2603:1016::/36,2603:1026::/36,2603:1036::/36,2603:1046::/36,2603:1056::/36,2620:1ec:4::152/128,2620:1ec:4::153/128,2620:1ec:c::10/128,2620:1ec:c::11/128,2620:1ec:d::10/128,2620:1ec:d::11/128,2620:1ec:8f0::/46,2620:1ec:900::/46,2620:1ec:a92::152/128,2620:1ec:a92::153/128"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 1 - Exchange Online",
+            "remote-hosts": [
+                "outlook.office.com",
+                "outlook.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 9 - Exchange Online",
+            "remote-addresses": "40.92.0.0/15,40.107.0.0/16,52.100.0.0/14,52.238.78.88/32,104.47.0.0/17,2a01:111:f400::/48,2a01:111:f403::/48"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 9 - Exchange Online",
+            "remote-domains": "protection.outlook.com"
+        },
+        {
+            "action": "allow",
+            "ports": "3478,3479,3480,3481",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 11 - Skype for Business Online and Microsoft Teams",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/38"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/38,2620:1ec:6::/48,2620:1ec:40::/42"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "remote-domains": [
+                "lync.com",
+                "teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "remote-hosts": "teams.microsoft.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 39 - SharePoint Online and OneDrive for Business",
+            "remote-domains": "svc.ms"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
+            "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "officeapps.live.com",
+                "online.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 46 - Microsoft 365 Common and Office Online",
+            "remote-hosts": "office.live.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
+            "remote-addresses": "20.20.32.0/19,20.190.128.0/18,20.231.128.0/19,40.126.0.0/18,2603:1006:2000::/48,2603:1007:200::/48,2603:1016:1400::/48,2603:1017::/48,2603:1026:3000::/48,2603:1027:1::/48,2603:1036:3000::/48,2603:1037:1::/48,2603:1046:2000::/48,2603:1047:1::/48,2603:1056:2000::/48,2603:1057:2::/48"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "auth.microsoft.com",
+                "msftidentity.com",
+                "msidentity.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 56 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "account.activedirectory.windowsazure.com",
+                "accounts.accesscontrol.windows.net",
+                "adminwebservice.microsoftonline.com",
+                "api.passwordreset.microsoftonline.com",
+                "autologon.microsoftazuread-sso.com",
+                "becws.microsoftonline.com",
+                "ccs.login.microsoftonline.com",
+                "clientconfig.microsoftonline-p.net",
+                "companymanager.microsoftonline.com",
+                "device.login.microsoftonline.com",
+                "graph.microsoft.com",
+                "graph.windows.net",
+                "login.microsoft.com",
+                "login.microsoftonline.com",
+                "login.microsoftonline-p.com",
+                "login.windows.net",
+                "logincert.microsoftonline.com",
+                "loginex.microsoftonline.com",
+                "login-us.microsoftonline.com",
+                "nexus.microsoftonline-p.com",
+                "passwordreset.microsoftonline.com",
+                "provisioningapi.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "hip.live.com",
+                "microsoftonline.com",
+                "microsoftonline-p.com",
+                "msauth.net",
+                "msauthimages.net",
+                "msecnd.net",
+                "msftauth.net",
+                "msftauthimages.net",
+                "phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 59 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net",
+                "policykeyservice.dc.ad.msft.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 69 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "aria.microsoft.com",
+                "events.data.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 71 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office365.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 97 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "account.live.com",
+                "login.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
+            "remote-domains": [
+                "appex.bing.com",
+                "appex-rf.msn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 114 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "c.bing.com",
+                "c.live.com",
+                "d.docs.live.net",
+                "docs.live.net",
+                "partnerservices.getmicrosoftkey.com",
+                "signup.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 147 - Microsoft 365 Common and Office Online",
+            "remote-hosts": "www.microsoft365.com"
+        }
+    ]
+}
