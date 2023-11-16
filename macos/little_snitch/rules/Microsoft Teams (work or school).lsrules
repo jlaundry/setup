@@ -60,6 +60,9 @@
                 "onedscolprdeus12.eastus.cloudapp.azure.com",
                 "onedscolprdeus13.eastus.cloudapp.azure.com",
                 "onedscolprdeus14.eastus.cloudapp.azure.com",
+                "onedscolprdeus15.eastus.cloudapp.azure.com",
+                "onedscolprdeus16.eastus.cloudapp.azure.com",
+                "onedscolprdeus17.eastus.cloudapp.azure.com",
                 "onedscolprdfrc00.francecentral.cloudapp.azure.com",
                 "onedscolprdfrc01.francecentral.cloudapp.azure.com",
                 "onedscolprdfrc02.francecentral.cloudapp.azure.com",
@@ -248,7 +251,7 @@
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 46 - Microsoft 365 Common and Office Online",
-            "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
+            "remote-addresses": "13.107.6.171/32,13.107.18.15/32,13.107.140.6/32,52.108.0.0/14,52.244.37.168/32,2603:1006:1400::/40,2603:1016:2400::/40,2603:1026:2400::/40,2603:1036:2400::/40,2603:1046:1400::/40,2603:1056:1400::/40,2603:1063:2000::/38,2620:1ec:c::15/128,2620:1ec:8fc::6/128,2620:1ec:a92::171/128,2a01:111:f100:2000::a83e:3019/128,2a01:111:f100:2002::8975:2d79/128,2a01:111:f100:2002::8975:2da8/128,2a01:111:f100:7000::6fdd:6cd5/128,2a01:111:f100:a004::bfeb:88cf/128"
         },
         {
             "action": "allow",
