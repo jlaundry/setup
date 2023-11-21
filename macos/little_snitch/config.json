@@ -27,6 +27,21 @@
             ]
         },
         {
+            "filename": "rules\/Microsoft Edge.lsrules",
+            "name": "Microsoft Edge",
+            "processes": [
+                "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge"
+            ],
+            "rules": [
+                {
+                    "url": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=7f74198b-51f7-4caf-ad3f-736180888dd7",
+                    "rule_ids": [
+                        11
+                    ]
+                }
+            ]
+        },
+        {
             "filename":"rules\/Microsoft Office.lsrules",
             "name": "Microsoft Office",
             "processes": [
