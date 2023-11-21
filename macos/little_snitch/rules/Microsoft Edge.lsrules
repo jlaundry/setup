@@ -1,0 +1,15 @@
+{
+    "name": "Microsoft Edge",
+    "description": "",
+    "rules": [
+        {
+            "action": "allow",
+            "ports": "3478,3479,3480,3481",
+            "process": "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 11 - Skype for Business Online and Microsoft Teams",
+            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/38"
+        }
+    ]
+}
