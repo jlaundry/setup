@@ -29,6 +29,7 @@
                 "onedsblobprdwus16.westus.cloudapp.azure.com",
                 "onedsblobprdwus17.westus.cloudapp.azure.com",
                 "onedscolprdaus00.australiasoutheast.cloudapp.azure.com",
+                "onedscolprdaus01.australiasoutheast.cloudapp.azure.com",
                 "onedscolprdaus02.australiasoutheast.cloudapp.azure.com",
                 "onedscolprdcus00.centralus.cloudapp.azure.com",
                 "onedscolprdcus01.centralus.cloudapp.azure.com",
@@ -245,6 +246,33 @@
                 "go.microsoft.com",
                 "definitionupdates.microsoft.com",
                 "wdcp.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Defender Smart Screen",
+            "remote-hosts": "smartscreen.microsoft.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 2 - Defender Smart Screen hosts",
+            "remote-hosts": [
+                "wd-prod-ss-us-east-1-fe.eastus.cloudapp.azure.com",
+                "wd-prod-ss-us-east-2-fe.eastus.cloudapp.azure.com",
+                "wd-prod-ss-us-northcentral-1-fe.northcentralus.cloudapp.azure.com",
+                "wd-prod-ss-us-northcentral-2-fe.northcentralus.cloudapp.azure.com",
+                "wd-prod-ss-us-southcentral-1-fe.southcentralus.cloudapp.azure.com",
+                "wd-prod-ss-us-southcentral-2-fe.southcentralus.cloudapp.azure.com",
+                "wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com",
+                "wd-prod-ss-us-west-2-fe.westus.cloudapp.azure.com"
             ]
         }
     ]
