@@ -23,6 +23,13 @@
                         5,
                         6
                     ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/smartscreen.json",
+                    "rule_ids": [
+                        1,
+                        2
+                    ]
                 }
             ]
         },
