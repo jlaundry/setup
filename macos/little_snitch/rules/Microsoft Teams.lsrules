@@ -530,13 +530,13 @@
                 "device.login.microsoftonline.com",
                 "graph.microsoft.com",
                 "graph.windows.net",
+                "login-us.microsoftonline.com",
                 "login.microsoft.com",
-                "login.microsoftonline.com",
                 "login.microsoftonline-p.com",
+                "login.microsoftonline.com",
                 "login.windows.net",
                 "logincert.microsoftonline.com",
                 "loginex.microsoftonline.com",
-                "login-us.microsoftonline.com",
                 "nexus.microsoftonline-p.com",
                 "passwordreset.microsoftonline.com",
                 "provisioningapi.microsoftonline.com"
@@ -551,8 +551,8 @@
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
-                "microsoftonline.com",
                 "microsoftonline-p.com",
+                "microsoftonline.com",
                 "msauth.net",
                 "msauthimages.net",
                 "msecnd.net",
@@ -614,8 +614,8 @@
             "owner": "me",
             "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
-                "appex.bing.com",
-                "appex-rf.msn.com"
+                "appex-rf.msn.com",
+                "appex.bing.com"
             ]
         },
         {
@@ -802,13 +802,13 @@
                 "device.login.microsoftonline.com",
                 "graph.microsoft.com",
                 "graph.windows.net",
+                "login-us.microsoftonline.com",
                 "login.microsoft.com",
-                "login.microsoftonline.com",
                 "login.microsoftonline-p.com",
+                "login.microsoftonline.com",
                 "login.windows.net",
                 "logincert.microsoftonline.com",
                 "loginex.microsoftonline.com",
-                "login-us.microsoftonline.com",
                 "nexus.microsoftonline-p.com",
                 "passwordreset.microsoftonline.com",
                 "provisioningapi.microsoftonline.com"
@@ -823,8 +823,8 @@
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
             "remote-domains": [
                 "hip.live.com",
-                "microsoftonline.com",
                 "microsoftonline-p.com",
+                "microsoftonline.com",
                 "msauth.net",
                 "msauthimages.net",
                 "msecnd.net",
@@ -886,8 +886,8 @@
             "owner": "me",
             "notes": "rule 114 - Microsoft 365 Common and Office Online",
             "remote-domains": [
-                "appex.bing.com",
-                "appex-rf.msn.com"
+                "appex-rf.msn.com",
+                "appex.bing.com"
             ]
         },
         {
