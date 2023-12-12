@@ -50,6 +50,62 @@
       "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
       "protocol" : "tcp",
       "remote-domains" : "manage.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmDaemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "in.appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmDaemon",
+      "protocol" : "tcp",
+      "remote-domains": "manage.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmDaemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "self.events.data.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmDaemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "config.edge.skype.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "in.appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "self.events.data.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AppStoreDaemon.framework\/Support\/appstored",
+      "protocol" : "tcp",
+      "remote-hosts" : "macsidecarprodap.azureedge.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AppStoreDaemon.framework\/Support\/appstored",
+      "protocol" : "tcp",
+      "remote-domains": "manage.microsoft.com"
     }
   ]
 }
