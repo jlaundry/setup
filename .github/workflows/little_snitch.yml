@@ -1,5 +1,7 @@
 name: "Update Little Snitch rules"
 on:
+  schedule:
+    - cron: '42 1 * * 2'
   workflow_dispatch:
 
 jobs:
