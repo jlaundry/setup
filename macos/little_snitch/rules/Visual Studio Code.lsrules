@@ -56,6 +56,8 @@
                 "onedscolprdcus19.centralus.cloudapp.azure.com",
                 "onedscolprdcus20.centralus.cloudapp.azure.com",
                 "onedscolprdcus21.centralus.cloudapp.azure.com",
+                "onedscolprdcus22.centralus.cloudapp.azure.com",
+                "onedscolprdcus23.centralus.cloudapp.azure.com",
                 "onedscolprdeus00.eastus.cloudapp.azure.com",
                 "onedscolprdeus01.eastus.cloudapp.azure.com",
                 "onedscolprdeus02.eastus.cloudapp.azure.com",
@@ -74,6 +76,7 @@
                 "onedscolprdeus15.eastus.cloudapp.azure.com",
                 "onedscolprdeus16.eastus.cloudapp.azure.com",
                 "onedscolprdeus17.eastus.cloudapp.azure.com",
+                "onedscolprdeus18.eastus.cloudapp.azure.com",
                 "onedscolprdeus19.eastus.cloudapp.azure.com",
                 "onedscolprdeus20.eastus.cloudapp.azure.com",
                 "onedscolprdeus21.eastus.cloudapp.azure.com",
@@ -156,7 +159,9 @@
                 "onedscolprdwus18.westus.cloudapp.azure.com",
                 "onedscolprdwus19.westus.cloudapp.azure.com",
                 "onedscolprdwus20.westus.cloudapp.azure.com",
-                "onedscolprdwus21.westus.cloudapp.azure.com"
+                "onedscolprdwus21.westus.cloudapp.azure.com",
+                "onedscolprdwus22.westus.cloudapp.azure.com",
+                "onedscolprdwus23.westus.cloudapp.azure.com"
             ]
         }
     ]
