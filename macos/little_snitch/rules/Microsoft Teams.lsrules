@@ -451,6 +451,7 @@
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
             "remote-hosts": [
+                "outlook.cloud.microsoft",
                 "outlook.office.com",
                 "outlook.office365.com"
             ]
@@ -472,6 +473,7 @@
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
             "remote-hosts": [
+                "outlook.cloud.microsoft",
                 "outlook.office.com",
                 "outlook.office365.com"
             ]
@@ -723,6 +725,7 @@
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
             "remote-hosts": [
+                "outlook.cloud.microsoft",
                 "outlook.office.com",
                 "outlook.office365.com"
             ]
@@ -744,6 +747,7 @@
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
             "remote-hosts": [
+                "outlook.cloud.microsoft",
                 "outlook.office.com",
                 "outlook.office365.com"
             ]
