@@ -6,11 +6,14 @@ o.pki.goog
 ocsp.comodoca.com.cdn.cloudflare.net
 ocsp.digicert.com
 ocsp.e3m03.amazontrust.com
+ocsp.globalsign.com
 ocsp.pki.goog
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.r2m03.amazontrust.com
 ocsp.sectigo.com
+ocsp.starfieldtech.com
+oneocsp.microsoft.com
 pki-goog.l.google.com
 prod.globalsign.map.fastly.net
 r3.i.lencr.org
