@@ -11,8 +11,8 @@ lsrules = {
 }
 
 processes = [
-    "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-    "\/Applications\/VMware Fusion.app\/Contents\/MacOS\/VMware Fusion",
+    "/Applications/Firefox.app/Contents/MacOS/firefox",
+    "/Applications/VMware Fusion.app/Contents/MacOS/VMware Fusion",
 ]
 
 with open('crl-hosts.txt', 'r') as crlf:

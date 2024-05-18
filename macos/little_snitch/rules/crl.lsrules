@@ -5,7 +5,7 @@
         {
             "action": "allow",
             "ports": 80,
-            "process": "\\/Applications\\/Firefox.app\\/Contents\\/MacOS\\/firefox",
+            "process": "/Applications/Firefox.app/Contents/MacOS/firefox",
             "protocol": "tcp",
             "owner": "me",
             "remote-hosts": [
@@ -36,7 +36,7 @@
         {
             "action": "allow",
             "ports": 80,
-            "process": "\\/Applications\\/VMware Fusion.app\\/Contents\\/MacOS\\/VMware Fusion",
+            "process": "/Applications/VMware Fusion.app/Contents/MacOS/VMware Fusion",
             "protocol": "tcp",
             "owner": "me",
             "remote-hosts": [
