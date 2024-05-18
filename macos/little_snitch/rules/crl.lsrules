@@ -1,0 +1,68 @@
+{
+    "name": "Direct CRL and OCSP",
+    "description": "Some applications don't use the built-in certificate verification, and therefore need access to CRL / OCSP domains",
+    "rules": [
+        {
+            "action": "allow",
+            "ports": 80,
+            "process": "\\/Applications\\/Firefox.app\\/Contents\\/MacOS\\/firefox",
+            "protocol": "tcp",
+            "owner": "me",
+            "remote-hosts": [
+                "cacerts.digicert.com",
+                "cdn.globalsigncdn.com.cdn.cloudflare.net",
+                "crl.microsoft.com",
+                "crl.pki.goog",
+                "o.pki.goog",
+                "ocsp.comodoca.com.cdn.cloudflare.net",
+                "ocsp.digicert.com",
+                "ocsp.e3m03.amazontrust.com",
+                "ocsp.globalsign.com",
+                "ocsp.pki.goog",
+                "ocsp.r2m01.amazontrust.com",
+                "ocsp.r2m02.amazontrust.com",
+                "ocsp.r2m03.amazontrust.com",
+                "ocsp.sectigo.com",
+                "ocsp.starfieldtech.com",
+                "oneocsp.microsoft.com",
+                "pki-goog.l.google.com",
+                "prod.globalsign.map.fastly.net",
+                "r3.i.lencr.org",
+                "r3.o.lencr.org",
+                "x1.c.lencr.org",
+                "x1.i.lencr.org"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": 80,
+            "process": "\\/Applications\\/VMware Fusion.app\\/Contents\\/MacOS\\/VMware Fusion",
+            "protocol": "tcp",
+            "owner": "me",
+            "remote-hosts": [
+                "cacerts.digicert.com",
+                "cdn.globalsigncdn.com.cdn.cloudflare.net",
+                "crl.microsoft.com",
+                "crl.pki.goog",
+                "o.pki.goog",
+                "ocsp.comodoca.com.cdn.cloudflare.net",
+                "ocsp.digicert.com",
+                "ocsp.e3m03.amazontrust.com",
+                "ocsp.globalsign.com",
+                "ocsp.pki.goog",
+                "ocsp.r2m01.amazontrust.com",
+                "ocsp.r2m02.amazontrust.com",
+                "ocsp.r2m03.amazontrust.com",
+                "ocsp.sectigo.com",
+                "ocsp.starfieldtech.com",
+                "oneocsp.microsoft.com",
+                "pki-goog.l.google.com",
+                "prod.globalsign.map.fastly.net",
+                "r3.i.lencr.org",
+                "r3.o.lencr.org",
+                "x1.c.lencr.org",
+                "x1.i.lencr.org"
+            ]
+        }
+    ]
+}
