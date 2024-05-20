@@ -55,3 +55,5 @@ Set-Service -Name Spooler -StartupType Disabled
 # Remove OneDrive
 foreach ($onedrive in (Get-ChildItem $Env:localappdata\Microsoft\OneDrive\*\OneDriveSetup.exe)) {Start-Process -FilePath $onedrive /uninstall}
 
+# Disable Widgets
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Dsh" -Name AllowNewsAndInterests -PropertyType DWord -Value 0
