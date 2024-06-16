@@ -1,5 +1,8 @@
 name: "Update Little Snitch rules"
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '42 1 * * 2'
   workflow_dispatch:
@@ -31,7 +34,11 @@ jobs:
           git config pull.rebase false
           branch=automated-lsrules-update-$GITHUB_RUN_ID
           git checkout -b $branch
-          cd macos/little_snitch && python3 update_microsoft.py && cd ../..
+          cd macos/little_snitch
+          python3 update_crl.py
+          python3 update_icloud.py
+          python3 update_microsoft.py
+          cd ../..
           message='Automated lsrules update'
           # Add / update and commit
           git add macos/little_snitch/rules/*.lsrules
