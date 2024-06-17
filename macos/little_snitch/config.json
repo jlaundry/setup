@@ -179,7 +179,7 @@
             "filename": "rules\/Microsoft Teams (work or school).lsrules",
             "name": "Microsoft Teams (work or school)",
             "processes": [
-                "\/Applications\/Microsoft Teams (work or school).app\/Contents\/MacOS\/MSTeams"  
+                "\/Applications\/Microsoft Teams.app\/Contents\/MacOS\/MSTeams"  
             ],
             "rules": [
                 {
