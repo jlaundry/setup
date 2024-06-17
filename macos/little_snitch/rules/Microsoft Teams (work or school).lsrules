@@ -5,7 +5,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 1 - Data Management service",
@@ -14,7 +14,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 2 - Data Management service hosts",
@@ -176,7 +176,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
@@ -185,7 +185,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
@@ -198,7 +198,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "udp",
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
@@ -207,7 +207,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "udp",
             "owner": "me",
             "notes": "rule 1 - Exchange Online",
@@ -220,7 +220,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 9 - Exchange Online",
@@ -229,7 +229,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 9 - Exchange Online",
@@ -238,7 +238,7 @@
         {
             "action": "allow",
             "ports": "3478,3479,3480,3481",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "udp",
             "owner": "me",
             "notes": "rule 11 - Skype for Business Online and Microsoft Teams",
@@ -247,7 +247,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
@@ -256,7 +256,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
@@ -268,7 +268,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
@@ -277,7 +277,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 39 - SharePoint Online and OneDrive for Business",
@@ -286,7 +286,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 46 - Microsoft 365 Common and Office Online",
@@ -295,7 +295,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 46 - Microsoft 365 Common and Office Online",
@@ -307,7 +307,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 46 - Microsoft 365 Common and Office Online",
@@ -316,7 +316,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 47 - Microsoft 365 Common and Office Online",
@@ -325,7 +325,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
@@ -334,7 +334,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
@@ -347,7 +347,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
@@ -379,7 +379,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
@@ -398,7 +398,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
@@ -410,7 +410,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 69 - Microsoft 365 Common and Office Online",
@@ -422,7 +422,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 71 - Microsoft 365 Common and Office Online",
@@ -431,7 +431,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 97 - Microsoft 365 Common and Office Online",
@@ -443,7 +443,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 114 - Microsoft 365 Common and Office Online",
@@ -455,7 +455,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 114 - Microsoft 365 Common and Office Online",
@@ -471,7 +471,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 147 - Microsoft 365 Common and Office Online",
@@ -480,7 +480,7 @@
         {
             "action": "allow",
             "ports": "443",
-            "process": "/Applications/Microsoft Teams (work or school).app/Contents/MacOS/MSTeams",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 147 - Microsoft 365 Common and Office Online",
