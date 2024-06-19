@@ -425,6 +425,38 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
+            "notes": "rule 70 - Microsoft 365 Common and Office Online",
+            "remote-domains": "o365weve.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 70 - Microsoft 365 Common and Office Online",
+            "remote-hosts": [
+                "amp.azure.net",
+                "appsforoffice.microsoft.com",
+                "assets.onestore.ms",
+                "auth.gfx.ms",
+                "c1.microsoft.com",
+                "dgps.support.microsoft.com",
+                "docs.microsoft.com",
+                "msdn.microsoft.com",
+                "platform.linkedin.com",
+                "prod.msocdn.com",
+                "shellprod.msocdn.com",
+                "support.microsoft.com",
+                "technet.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
             "notes": "rule 71 - Microsoft 365 Common and Office Online",
             "remote-domains": "office365.com"
         },
@@ -485,6 +517,15 @@
             "owner": "me",
             "notes": "rule 147 - Microsoft 365 Common and Office Online",
             "remote-hosts": "www.microsoft365.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 159 - Microsoft 365 Common and Office Online",
+            "remote-hosts": "admin.microsoft.com"
         }
     ]
 }
