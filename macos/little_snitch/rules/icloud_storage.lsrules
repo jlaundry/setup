@@ -14,6 +14,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
@@ -30,6 +31,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
@@ -46,6 +48,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
@@ -62,6 +65,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
@@ -78,6 +82,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
@@ -94,6 +99,7 @@
                 "gcs-eu-00002.content-storage-upload.googleapis.com",
                 "gcs-us-00002.content-storage-download.googleapis.com",
                 "gcs-us-00003.content-storage-download.googleapis.com",
+                "ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com",
                 "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
                 "us-ore-00001.s3.dualstack.us-west-2.amazonaws.com"
             ]
