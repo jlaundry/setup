@@ -1,0 +1,116 @@
+{
+    "rules": [
+        {
+            "custom_msg": "/opt/homebrew/Cellar/jq/1.7.1/bin/jq",
+            "identifier": "8c4c36de0e37a68237cde12df9b9f34a87d5eed6dfa80456aa01c287a070d818",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python",
+            "identifier": "bf93227c146ed488bc9021d088bbdb25c7f833aef5781ea3f573bb5e58288a95",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+            "identifier": "b53b3dd0df204848ef894e1e93289ea2a879d4af45692b3478380fdde1976bf3",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python",
+            "identifier": "056e2084685bcb3e20efcdd452d72b29575d4c7848b453e22c7155e249e2b8b5",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+            "identifier": "18926c42c1556395b94ef9049f41b2f77a5e19142f745ee9621692cb9f6ccabe",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/rclone/1.67.0/bin/rclone",
+            "identifier": "41dde9c00c944751c81f79f0796ce4d4189051eaf68de8276ec9e018606c8164",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby",
+            "identifier": "fe5e11a82cee79cf461cef8ec863f589e67208984594f76c63abedff4f6593ff",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "~/.vscode/extensions/redhat.vscode-xml-0.27.1-darwin-arm64/server/lemminx-osx-aarch_64",
+            "identifier": "3122d695d70f94e1d4112ad848c3b491b5fde9993000d9364c28762eb8bbb7a3",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "identifier": "43AQ936H96:org.mozilla.firefox",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "43AQ936H96:org.mozilla.plugincontainer",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "66JC38RDUD:com.reederapp.5.macOS",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "7R5ZEU67FQ:corp.sap.privileges",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "9JTH7AWHE6:com.tapbots.Pastebot2Mac",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "C7HHQ9A86J:do.anh.Pins",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "UBF8T346G9:com.microsoft.VSCode",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "UZE43C298T:com.ridiculousfish.HexFiend",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "custom_msg": "AgileBits Inc.",
+            "identifier": "2BUA8C4S2C",
+            "policy": "ALLOWLIST",
+            "rule_type": "TEAMID"
+        },
+        {
+            "custom_msg": "VMware, Inc.",
+            "identifier": "EG7KH642X6",
+            "policy": "ALLOWLIST",
+            "rule_type": "TEAMID"
+        },
+        {
+            "custom_msg": "Objective Development Software GmbH",
+            "identifier": "MLZF7K7B5R",
+            "policy": "ALLOWLIST",
+            "rule_type": "TEAMID"
+        },
+        {
+            "custom_msg": "Microsoft",
+            "identifier": "UBF8T346G9",
+            "policy": "ALLOWLIST",
+            "rule_type": "TEAMID"
+        }
+    ]
+}

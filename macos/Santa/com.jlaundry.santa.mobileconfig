@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.santa</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>BannedBlockMessage</key>
+								<string>This application has been banned</string>
+								<key>ClientMode</key>
+								<integer>1</integer>
+								<key>EnablePageZeroProtection</key>
+								<false/>
+								<key>EnableSilentMode</key>
+								<false/>
+								<key>FileChangesRegex</key>
+								<string>^/(?:private/etc|Users/Shared|Applications)/.*</string>
+								<key>MachineIDKey</key>
+								<string>MachineUUID</string>
+								<key>MachineIDPlist</key>
+								<string>/Library/Preferences/com.jlaundry.machine-mapping.plist</string>
+								<key>MachineOwnerKey</key>
+								<string>Owner</string>
+								<key>MachineOwnerPlist</key>
+								<string>/Library/Preferences/com.jlaundry.machine-mapping.plist</string>
+								<key>ModeNotificationLockdown</key>
+								<string>Entering Lockdown mode</string>
+								<key>ModeNotificationMonitor</key>
+								<string>Entering Monitor mode&lt;br/&gt;Please be careful!</string>
+								<key>StaticRules</key>
+								<array>
+									<dict>
+										<!-- Google -->
+										<key>identifier</key>
+										<string>EQHXZ8M8AV</string>
+										<key>policy</key>
+										<string>ALLOWLIST</string>
+										<key>rule_type</key>
+										<string>TEAMID</string>
+									</dict>
+									<dict>
+										<key>identifier</key>
+										<string>7R5ZEU67FQ:corp.sap.privileges</string>
+										<key>policy</key>
+										<string>ALLOWLIST</string>
+										<key>rule_type</key>
+										<string>SIGNINGID</string>
+									</dict>
+									<dict>
+										<key>identifier</key>
+										<string>2BUA8C4S2C:com.1password.1password</string>
+										<key>policy</key>
+										<string>ALLOWLIST</string>
+										<key>rule_type</key>
+										<string>SIGNINGID</string>
+									</dict>
+									<dict>
+										<key>identifier</key>
+										<string>43AQ936H96:org.mozilla.firefox</string>
+										<key>policy</key>
+										<string>ALLOWLIST</string>
+										<key>rule_type</key>
+										<string>SIGNINGID</string>
+									</dict>
+									<dict>
+										<!-- BundleExample.app, from https://github.com/google/santa/tree/main/Source/common/testdata/BundleExample.app -->
+										<key>identifier</key>
+										<string>b7c1e3fd640c5f211c89b02c2c6122f78ce322aa5c56eb0bb54bc422a8f8b670</string>
+										<key>policy</key>
+										<string>BLOCKLIST</string>
+										<key>rule_type</key>
+										<string>BINARY</string>
+									</dict>
+								</array>
+								<key>SyncBaseURL</key>
+								<string>http://localhost:5000/</string>
+								<key>UnknownBlockMessage</key>
+								<string>This application has been blocked from executing.</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Santa configuration</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ManagedClient.preferences.327F5A45-70EB-4D2A-B3D1-7605761E69A7</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>327F5A45-70EB-4D2A-B3D1-7605761E69A7</string>
+			<key>PayloadVersion</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Santa Configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>com.jlaundry.santa.6159B577-BDD7-432F-9A07-C6DF875953BD</string>
+	<key>PayloadOrganization</key>
+	<string>Jed Laundry</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6159B577-BDD7-432F-9A07-C6DF875953BD</string>
+	<key>PayloadVersion</key>
+	<integer>7</integer>
+</dict>
+</plist>
