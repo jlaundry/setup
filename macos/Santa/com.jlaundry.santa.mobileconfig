@@ -22,6 +22,10 @@
 								<false/>
 								<key>EnableSilentMode</key>
 								<false/>
+								<key>EnableDebugLogging</key>
+								<true/>
+								<key>EnableTransitiveRules</key>
+								<true/>
 								<key>FileChangesRegex</key>
 								<string>^/(?:private/etc|Users/Shared|Applications)/.*</string>
 								<key>MachineIDKey</key>
@@ -36,10 +40,10 @@
 								<string>Entering Lockdown mode</string>
 								<key>ModeNotificationMonitor</key>
 								<string>Entering Monitor mode&lt;br/&gt;Please be careful!</string>
-								<key>StaticRules</key>
+								<!--<key>StaticRules</key>
 								<array>
 									<dict>
-										<!-- Google -->
+										Google
 										<key>identifier</key>
 										<string>EQHXZ8M8AV</string>
 										<key>policy</key>
@@ -72,7 +76,7 @@
 										<string>SIGNINGID</string>
 									</dict>
 									<dict>
-										<!-- BundleExample.app, from https://github.com/google/santa/tree/main/Source/common/testdata/BundleExample.app -->
+										BundleExample.app, from https://github.com/google/santa/tree/main/Source/common/testdata/BundleExample.app
 										<key>identifier</key>
 										<string>b7c1e3fd640c5f211c89b02c2c6122f78ce322aa5c56eb0bb54bc422a8f8b670</string>
 										<key>policy</key>
@@ -80,9 +84,9 @@
 										<key>rule_type</key>
 										<string>BINARY</string>
 									</dict>
-								</array>
-								<key>SyncBaseURL</key>
-								<string>http://localhost:5000/</string>
+								</array>-->
+								<!-- <key>SyncBaseURL</key>
+								<string>http://localhost:5000/</string> -->
 								<key>UnknownBlockMessage</key>
 								<string>This application has been blocked from executing.</string>
 							</dict>
@@ -101,7 +105,7 @@
 			<key>PayloadUUID</key>
 			<string>327F5A45-70EB-4D2A-B3D1-7605761E69A7</string>
 			<key>PayloadVersion</key>
-			<integer>7</integer>
+			<integer>10</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -119,6 +123,6 @@
 	<key>PayloadUUID</key>
 	<string>6159B577-BDD7-432F-9A07-C6DF875953BD</string>
 	<key>PayloadVersion</key>
-	<integer>7</integer>
+	<integer>10</integer>
 </dict>
 </plist>

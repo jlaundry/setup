@@ -1,6 +1,36 @@
 {
     "rules": [
         {
+            "custom_msg": "/opt/homebrew/Cellar/go/1.22.5/libexec/bin/go",
+            "identifier": "29d01ab1be55421f0877276c5b108dfbfaa0bf1d264281288f4dbfb8506b6543",
+            "policy": "ALLOWLIST_COMPILER",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/go/1.22.5/libexec/pkg/tool/darwin_arm64/asm",
+            "identifier": "732163cb4873b04e0821215ba28d4246ffb7f7f4375703ac4bec4e000f3cea93",
+            "policy": "ALLOWLIST_COMPILER",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/go/1.22.5/libexec/pkg/tool/darwin_arm64/cgo",
+            "identifier": "1213fc550f270ec0a42730b055be86f39b2870ffacb2cbbed5f9e45a15fbe1d3",
+            "policy": "ALLOWLIST_COMPILER",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/go/1.22.5/libexec/pkg/tool/darwin_arm64/compile",
+            "identifier": "285df222f2b6c8db64566b61c00e1bf1cf64b80c4f592c8da147df351de10b5a",
+            "policy": "ALLOWLIST_COMPILER",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "/opt/homebrew/Cellar/go/1.22.5/libexec/pkg/tool/darwin_arm64/link",
+            "identifier": "d0b04e4982a1afae3318f695c65ae7590e66936f4b8e569fd690096015277a28",
+            "policy": "ALLOWLIST_COMPILER",
+            "rule_type": "BINARY"
+        },
+        {
             "custom_msg": "/opt/homebrew/Cellar/jq/1.7.1/bin/jq",
             "identifier": "8c4c36de0e37a68237cde12df9b9f34a87d5eed6dfa80456aa01c287a070d818",
             "policy": "ALLOWLIST",
@@ -45,6 +75,18 @@
         {
             "custom_msg": "~/.vscode/extensions/redhat.vscode-xml-0.27.1-darwin-arm64/server/lemminx-osx-aarch_64",
             "identifier": "3122d695d70f94e1d4112ad848c3b491b5fde9993000d9364c28762eb8bbb7a3",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "~/go/bin/dlv",
+            "identifier": "090b6ad9595d43df0e97688fe17e758571789450dafeb4e434ee5a155a2e4779",
+            "policy": "ALLOWLIST",
+            "rule_type": "BINARY"
+        },
+        {
+            "custom_msg": "~/go/bin/staticcheck",
+            "identifier": "d07c392eb763763d5a4c26e2cff4778631346ae8816e4dbbbedc4eac7d240f0a",
             "policy": "ALLOWLIST",
             "rule_type": "BINARY"
         },
