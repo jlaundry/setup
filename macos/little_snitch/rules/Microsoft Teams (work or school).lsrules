@@ -242,8 +242,8 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "udp",
             "owner": "me",
-            "notes": "rule 11 - Skype for Business Online and Microsoft Teams",
-            "remote-addresses": "13.107.64.0/18,52.112.0.0/14,52.122.0.0/15,2603:1063::/38"
+            "notes": "rule 11 - Microsoft Teams",
+            "remote-addresses": "52.112.0.0/14,52.122.0.0/15,2603:1063::/38"
         },
         {
             "action": "allow",
@@ -251,7 +251,7 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "notes": "rule 12 - Microsoft Teams",
             "remote-addresses": "52.112.0.0/14,52.122.0.0/15,52.238.119.141/32,52.244.160.207/32,2603:1027::/48,2603:1037::/48,2603:1047::/48,2603:1057::/48,2603:1063::/38,2620:1ec:6::/48,2620:1ec:40::/42"
         },
         {
@@ -260,7 +260,7 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "notes": "rule 12 - Microsoft Teams",
             "remote-domains": [
                 "lync.com",
                 "teams.microsoft.com"
@@ -272,7 +272,7 @@
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
-            "notes": "rule 12 - Skype for Business Online and Microsoft Teams",
+            "notes": "rule 12 - Microsoft Teams",
             "remote-hosts": "teams.microsoft.com"
         },
         {
