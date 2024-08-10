@@ -111,6 +111,16 @@
             "rule_type": "SIGNINGID"
         },
         {
+            "identifier": "7R5ZEU67FQ:corp.sap.privileges.helper",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
+            "identifier": "7R5ZEU67FQ:corp.sap.privileges.xpc",
+            "policy": "ALLOWLIST",
+            "rule_type": "SIGNINGID"
+        },
+        {
             "identifier": "9JTH7AWHE6:com.tapbots.Pastebot2Mac",
             "policy": "ALLOWLIST",
             "rule_type": "SIGNINGID"
