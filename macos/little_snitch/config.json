@@ -30,6 +30,16 @@
                         1,
                         2
                     ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/ecs.json",
+                    "rule_ids": [
+                        1
+                    ],
+                    "processes": [
+                        "\/Applications\/Microsoft Defender.app\/Contents\/MacOS\/Microsoft Defender.app\/Contents\/MacOS\/Microsoft Defender",
+                        "\/Applications\/Microsoft Defender.app\/Contents\/MacOS\/Microsoft Defender.app\/Contents\/MacOS\/Microsoft Defender Helper"
+                    ]
                 }
             ]
         },
@@ -111,6 +121,15 @@
                         47,
                         56,
                         69
+                    ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/ecs.json",
+                    "rule_ids": [
+                        1
+                    ],
+                    "processes": [
+                        "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive"
                     ]
                 }
             ]
@@ -208,6 +227,12 @@
                         114,
                         147,
                         159
+                    ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/jlaundry/aadinfo/main/network/ecs.json",
+                    "rule_ids": [
+                        1
                     ]
                 }
             ]

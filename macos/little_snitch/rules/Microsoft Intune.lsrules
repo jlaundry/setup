@@ -54,6 +54,13 @@
     {
       "action" : "allow",
       "ports" : "443",
+      "process" : "\/Applications\/Company Portal.app\/Contents\/MacOS\/Company Portal",
+      "protocol" : "tcp",
+      "remote-hosts" : "config.edge.skype.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
       "process" : "\/Library\/Intune\/Microsoft Intune Agent.app\/Contents\/MacOS\/IntuneMdmDaemon",
       "protocol" : "tcp",
       "remote-hosts" : "in.appcenter.ms"
