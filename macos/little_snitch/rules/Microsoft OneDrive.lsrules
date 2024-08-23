@@ -1135,6 +1135,30 @@
                 "aria.microsoft.com",
                 "events.data.microsoft.com"
             ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
         }
     ]
 }

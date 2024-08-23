@@ -313,6 +313,54 @@
                 "wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com",
                 "wd-prod-ss-us-west-2-fe.westus.cloudapp.azure.com"
             ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender Helper",
+            "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender Helper",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 1 - Experimentation and Configuration Service",
+            "remote-hosts": [
+                "ecs.office.com",
+                "config.edge.skype.com"
+            ]
         }
     ]
 }
