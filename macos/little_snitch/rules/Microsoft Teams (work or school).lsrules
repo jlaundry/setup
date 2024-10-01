@@ -263,6 +263,7 @@
             "notes": "rule 12 - Microsoft Teams",
             "remote-domains": [
                 "lync.com",
+                "teams.cloud.microsoft",
                 "teams.microsoft.com"
             ]
         },
@@ -273,7 +274,10 @@
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 12 - Microsoft Teams",
-            "remote-hosts": "teams.microsoft.com"
+            "remote-hosts": [
+                "teams.cloud.microsoft",
+                "teams.microsoft.com"
+            ]
         },
         {
             "action": "allow",
