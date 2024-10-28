@@ -57,3 +57,6 @@ foreach ($onedrive in (Get-ChildItem $Env:localappdata\Microsoft\OneDrive\*\OneD
 
 # Disable Widgets
 New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Dsh" -Name AllowNewsAndInterests -PropertyType DWord -Value 0
+
+# On Windows IoT LTSC, install Windows Store
+wsreset -i
