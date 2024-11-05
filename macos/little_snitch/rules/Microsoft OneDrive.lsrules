@@ -756,6 +756,15 @@
             "action": "allow",
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
@@ -915,6 +924,15 @@
             "action": "allow",
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
@@ -1066,6 +1084,15 @@
             "ports": "443",
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
             "protocol": "tcp",
+            "owner": "me",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app/Contents/MacOS/Microsoft SharePoint",
+            "protocol": "udp",
             "owner": "me",
             "notes": "rule 47 - Microsoft 365 Common and Office Online",
             "remote-domains": "office.net"
