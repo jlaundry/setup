@@ -331,6 +331,15 @@
             "action": "allow",
             "ports": "443",
             "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
+            "protocol": "udp",
+            "owner": "me",
+            "notes": "rule 47 - Microsoft 365 Common and Office Online",
+            "remote-domains": "office.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/Applications/Microsoft Teams.app/Contents/MacOS/MSTeams",
             "protocol": "tcp",
             "owner": "me",
             "notes": "rule 56 - Microsoft 365 Common and Office Online",
