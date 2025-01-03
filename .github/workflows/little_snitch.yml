@@ -38,6 +38,7 @@ jobs:
           python3 update_crl.py
           python3 update_icloud.py
           python3 update_microsoft.py
+          python3 update_tailscale.py
           cd ../..
           message='Automated lsrules update'
           # Add / update and commit

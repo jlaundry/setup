@@ -6,8 +6,10 @@ def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, de
         "ports": ports,
         "process": process,
         "protocol": protocol,
-        "owner": owner,
     }
+    
+    if owner is not None:
+        rule['owner'] = owner
 
     if notes is not None:
         rule['notes'] = notes
