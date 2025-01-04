@@ -1,12 +1,22 @@
 
-def create_rule(process, ports, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None, owner="me", notes=None):
+def create_rule(process, ports=None, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None, owner="me", notes=None):
 
     rule = {
         "action": "allow",
-        "ports": ports,
         "process": process,
         "protocol": protocol,
     }
+
+    if ports is None:
+        pass
+    elif type(ports) is str:
+        rule['ports'] = ports
+    elif type(ports) is int:
+        rule['ports'] = str(ports)
+    elif type(ports) is list:
+        rule['ports'] = ",".join([str(p) for p in ports])
+    else:
+        raise Exception(f"ports has unhandled type, {type(ports)}")
     
     if owner is not None:
         rule['owner'] = owner
