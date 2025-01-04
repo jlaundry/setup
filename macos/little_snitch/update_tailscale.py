@@ -10,6 +10,22 @@ if __name__ == '__main__':
 
     process = "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension"
 
+    rules += [
+        create_rule(
+            process=process,
+            ports=[443],
+            protocol="tcp",
+            dest_host=[
+                "login.tailscale.com",
+                "controlplane.tailscale.com",
+                "log.tailscale.com",
+                "log.tailscale.io",
+            ],
+            owner=None,
+            notes="Tailscale coordination servers",
+        ),
+    ]
+
     url = "https://login.tailscale.com/derpmap/default"
     resp = urllib3.request("GET", url)
 
@@ -44,5 +60,11 @@ if __name__ == '__main__':
                 ),
             ]
 
+    lsrules = {
+        "name": "Tailscale",
+        "description": "Tailscale",
+        "rules": rules,
+    }
+
     with open("rules/Tailscale.lsrues", "w") as of: 
-        json.dump(rules, of, indent=4)
+        json.dump(lsrules, of, indent=4)
