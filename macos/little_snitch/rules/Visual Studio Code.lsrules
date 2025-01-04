@@ -4,18 +4,18 @@
     "rules": [
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 1 - Data Management service",
             "remote-hosts": "v20.events.data.microsoft.com"
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 2 - Data Management service hosts",
             "remote-hosts": [

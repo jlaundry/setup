@@ -4,9 +4,9 @@
     "rules": [
         {
             "action": "allow",
-            "ports": 80,
             "process": "/Applications/Firefox.app/Contents/MacOS/firefox",
             "protocol": "tcp",
+            "ports": "80",
             "owner": "me",
             "remote-hosts": [
                 "cacerts.digicert.com",
@@ -35,9 +35,9 @@
         },
         {
             "action": "allow",
-            "ports": 80,
             "process": "/Applications/VMware Fusion.app/Contents/MacOS/VMware Fusion",
             "protocol": "tcp",
+            "ports": "80",
             "owner": "me",
             "remote-hosts": [
                 "cacerts.digicert.com",
