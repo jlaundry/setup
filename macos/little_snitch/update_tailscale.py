@@ -60,6 +60,7 @@ if __name__ == '__main__':
                 protocol="udp",
                 dest_ip=sorted(dest_ips),
                 owner=None,
+                direction="incoming",
                 notes=notes,
             ),
             create_rule(

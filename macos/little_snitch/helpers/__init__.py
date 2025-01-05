@@ -1,5 +1,5 @@
 
-def create_rule(process, ports=None, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None, owner="me", notes=None):
+def create_rule(process, ports=None, protocol="tcp", dest_ip=None, dest_host=None, dest_domain=None, owner="me", notes=None, direction="outgoing"):
 
     rule = {
         "action": "allow",
@@ -23,6 +23,13 @@ def create_rule(process, ports=None, protocol="tcp", dest_ip=None, dest_host=Non
 
     if notes is not None:
         rule['notes'] = notes
+
+    if direction == "outgoing":
+        pass # defaults to outgoing
+    elif direction == "incoming":
+        rule['direction'] = "incoming"
+    else:
+        raise Exception(f"direction '{direction}' is not incoming, outgoing")
 
     if dest_ip is not None:
         if isinstance(dest_ip, list):

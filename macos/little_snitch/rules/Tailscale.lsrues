@@ -29,6 +29,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP nyc (1)",
+            "direction": "incoming",
             "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19"
         },
         {
@@ -58,6 +59,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP sea (10)",
+            "direction": "incoming",
             "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c"
         },
         {
@@ -86,6 +88,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP sao (11)",
+            "direction": "incoming",
             "remote-addresses": "148.163.220.129,148.163.220.134,148.163.220.210,2607:f740:1::211,2607:f740:1::2e6,2607:f740:1::861"
         },
         {
@@ -114,6 +117,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP ord (12)",
+            "direction": "incoming",
             "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17"
         },
         {
@@ -142,6 +146,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP den (13)",
+            "direction": "incoming",
             "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23"
         },
         {
@@ -170,6 +175,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP ams (14)",
+            "direction": "incoming",
             "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09"
         },
         {
@@ -198,6 +204,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP jnb (15)",
+            "direction": "incoming",
             "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59"
         },
         {
@@ -226,6 +233,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP mia (16)",
+            "direction": "incoming",
             "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4"
         },
         {
@@ -254,6 +262,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP lax (17)",
+            "direction": "incoming",
             "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b"
         },
         {
@@ -282,6 +291,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP par (18)",
+            "direction": "incoming",
             "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e"
         },
         {
@@ -310,6 +320,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP mad (19)",
+            "direction": "incoming",
             "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61"
         },
         {
@@ -338,6 +349,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP sfo (2)",
+            "direction": "incoming",
             "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4"
         },
         {
@@ -366,6 +378,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP hkg (20)",
+            "direction": "incoming",
             "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6"
         },
         {
@@ -394,6 +407,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP tor (21)",
+            "direction": "incoming",
             "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10"
         },
         {
@@ -422,6 +436,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP waw (22)",
+            "direction": "incoming",
             "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253"
         },
         {
@@ -450,6 +465,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP dbi (23)",
+            "direction": "incoming",
             "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50"
         },
         {
@@ -478,6 +494,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP hnl (24)",
+            "direction": "incoming",
             "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151"
         },
         {
@@ -506,6 +523,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP nai (25)",
+            "direction": "incoming",
             "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9"
         },
         {
@@ -534,6 +552,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP nue (26)",
+            "direction": "incoming",
             "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141"
         },
         {
@@ -562,6 +581,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP iad (27)",
+            "direction": "incoming",
             "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233"
         },
         {
@@ -591,6 +611,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP sin (3)",
+            "direction": "incoming",
             "remote-addresses": "2403:2500:300::57a,2403:2500:300::b0c,2403:2500:300::df9,43.245.49.105,43.245.49.144,43.245.49.83"
         },
         {
@@ -619,6 +640,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP fra (4)",
+            "direction": "incoming",
             "remote-addresses": "185.40.234.113,185.40.234.219,185.40.234.77,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf"
         },
         {
@@ -647,6 +669,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP syd (5)",
+            "direction": "incoming",
             "remote-addresses": "2403:2500:9000:1::43,2403:2500:9000:1::ce7,2403:2500:9000:1::f57,43.245.48.220,43.245.48.250,43.245.48.50"
         },
         {
@@ -675,6 +698,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP blr (6)",
+            "direction": "incoming",
             "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120"
         },
         {
@@ -699,6 +723,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP tok (7)",
+            "direction": "incoming",
             "remote-addresses": "103.84.155.178,103.84.155.188,103.84.155.46,2403:2500:400:20::835,2403:2500:400:20::b79,2403:2500:400:20::cfe"
         },
         {
@@ -727,6 +752,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP lhr (8)",
+            "direction": "incoming",
             "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed"
         },
         {
@@ -755,6 +781,7 @@
             "protocol": "udp",
             "ports": "41641",
             "notes": "DERP dfw (9)",
+            "direction": "incoming",
             "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad"
         },
         {
