@@ -20,1151 +20,669 @@
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nyc-1f",
-            "remote-addresses": "199.38.181.104,2607:f740:f::bc"
+            "notes": "DERP nyc (1)",
+            "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1f",
-            "remote-hosts": "derp1f.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1g",
-            "remote-addresses": "209.177.145.120,2607:f740:f::3eb"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1g",
-            "remote-hosts": "derp1g.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1h",
-            "remote-addresses": "199.38.181.93,2607:f740:f::afd"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1h",
-            "remote-hosts": "derp1h.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1i",
-            "remote-addresses": "199.38.181.103,2607:f740:f::e19"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nyc-1i",
-            "remote-hosts": "derp1i.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10b",
-            "remote-addresses": "192.73.240.161,2607:f740:14::61c"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10b",
-            "remote-hosts": "derp10b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10c",
-            "remote-addresses": "192.73.240.121,2607:f740:14::40c"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10c",
-            "remote-hosts": "derp10c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10d",
-            "remote-addresses": "192.73.240.132,2607:f740:14::500"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sea-10d",
-            "remote-hosts": "derp10d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11b",
-            "remote-addresses": "148.163.220.129,2607:f740:1::211"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11b",
-            "remote-hosts": "derp11b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11c",
-            "remote-addresses": "148.163.220.134,2607:f740:1::861"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11c",
-            "remote-hosts": "derp11c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11d",
-            "remote-addresses": "148.163.220.210,2607:f740:1::2e6"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sao-11d",
-            "remote-hosts": "derp11d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12d",
-            "remote-addresses": "209.177.158.246,2607:f740:e::811"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12d",
-            "remote-hosts": "derp12d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12e",
-            "remote-addresses": "209.177.158.15,2607:f740:e::b17"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12e",
-            "remote-hosts": "derp12e.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12f",
-            "remote-addresses": "199.38.182.118,2607:f740:e::4c8"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ord-12f",
-            "remote-hosts": "derp12f.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13b",
-            "remote-addresses": "192.73.242.187,2607:f740:16::640"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13b",
-            "remote-hosts": "derp13b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13c",
-            "remote-addresses": "192.73.242.28,2607:f740:16::5c"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13c",
-            "remote-hosts": "derp13c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13d",
-            "remote-addresses": "192.73.242.204,2607:f740:16::c23"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP den-13d",
-            "remote-hosts": "derp13d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14b",
-            "remote-addresses": "176.58.93.248,2a00:dd80:3c::807"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14b",
-            "remote-hosts": "derp14b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14c",
-            "remote-addresses": "176.58.93.147,2a00:dd80:3c::b09"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14c",
-            "remote-hosts": "derp14c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14d",
-            "remote-addresses": "176.58.93.154,2a00:dd80:3c::3d5"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP ams-14d",
-            "remote-hosts": "derp14d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15b",
-            "remote-addresses": "102.67.165.90,2c0f:edb0:0:10::963"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15b",
-            "remote-hosts": "derp15b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15c",
-            "remote-addresses": "102.67.165.185,2c0f:edb0:0:10::b59"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15c",
-            "remote-hosts": "derp15c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15d",
-            "remote-addresses": "102.67.165.36,2c0f:edb0:0:10::599"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP jnb-15d",
-            "remote-hosts": "derp15d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16b",
-            "remote-addresses": "192.73.243.135,2607:f740:17::476"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16b",
-            "remote-hosts": "derp16b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16c",
-            "remote-addresses": "192.73.243.229,2607:f740:17::4e4"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16c",
-            "remote-hosts": "derp16c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16d",
-            "remote-addresses": "192.73.243.141,2607:f740:17::475"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mia-16d",
-            "remote-hosts": "derp16d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17b",
-            "remote-addresses": "192.73.244.245,2607:f740:c::646"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17b",
-            "remote-hosts": "derp17b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17c",
-            "remote-addresses": "208.111.40.12,2607:f740:c::10"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17c",
-            "remote-hosts": "derp17c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17d",
-            "remote-addresses": "208.111.40.216,2607:f740:c::e1b"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lax-17d",
-            "remote-hosts": "derp17d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18b",
-            "remote-addresses": "176.58.90.147,2a00:dd80:3e::363"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18b",
-            "remote-hosts": "derp18b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18c",
-            "remote-addresses": "176.58.90.207,2a00:dd80:3e::c19"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18c",
-            "remote-hosts": "derp18c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18d",
-            "remote-addresses": "176.58.90.104,2a00:dd80:3e::f2e"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP par-18d",
-            "remote-hosts": "derp18d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19b",
-            "remote-addresses": "45.159.97.144,2a00:dd80:14:10::335"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19b",
-            "remote-hosts": "derp19b.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19c",
-            "remote-addresses": "45.159.97.61,2a00:dd80:14:10::20"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19c",
-            "remote-hosts": "derp19c.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19d",
-            "remote-addresses": "45.159.97.233,2a00:dd80:14:10::34a"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP mad-19d",
-            "remote-hosts": "derp19d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2d",
-            "remote-addresses": "192.73.252.65,2607:f740:0:3f::287"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2d",
-            "remote-hosts": "derp2d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2e",
-            "remote-addresses": "192.73.252.134,2607:f740:0:3f::44c"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2e",
-            "remote-hosts": "derp2e.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2f",
-            "remote-addresses": "208.111.34.178,2607:f740:0:3f::f4"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sfo-2f",
-            "remote-hosts": "derp2f.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP nyc (1)",
+            "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hkg-20b",
-            "remote-addresses": "103.6.84.152,2403:2500:8000:1::ef6"
+            "notes": "DERP nyc (1)",
+            "remote-hosts": [
+                "derp1f.tailscale.com",
+                "derp1g.tailscale.com",
+                "derp1h.tailscale.com",
+                "derp1i.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hkg-20b",
-            "remote-hosts": "derp20b.tailscale.com"
+            "notes": "DERP sea (10)",
+            "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP hkg-20c",
-            "remote-addresses": "205.147.105.30,2403:2500:8000:1::5fb"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP sea (10)",
+            "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hkg-20c",
-            "remote-hosts": "derp20c.tailscale.com"
+            "notes": "DERP sea (10)",
+            "remote-hosts": [
+                "derp10b.tailscale.com",
+                "derp10c.tailscale.com",
+                "derp10d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hkg-20d",
-            "remote-addresses": "205.147.105.78,2403:2500:8000:1::e9a"
+            "notes": "DERP sao (11)",
+            "remote-addresses": "148.163.220.129,148.163.220.134,148.163.220.210,2607:f740:1::211,2607:f740:1::2e6,2607:f740:1::861"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP hkg-20d",
-            "remote-hosts": "derp20d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP sao (11)",
+            "remote-addresses": "148.163.220.129,148.163.220.134,148.163.220.210,2607:f740:1::211,2607:f740:1::2e6,2607:f740:1::861"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tor-21b",
-            "remote-addresses": "162.248.221.199,2607:f740:50::1d1"
+            "notes": "DERP sao (11)",
+            "remote-hosts": [
+                "derp11b.tailscale.com",
+                "derp11c.tailscale.com",
+                "derp11d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tor-21b",
-            "remote-hosts": "derp21b.tailscale.com"
+            "notes": "DERP ord (12)",
+            "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP tor-21c",
-            "remote-addresses": "162.248.221.215,2607:f740:50::f10"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP ord (12)",
+            "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tor-21c",
-            "remote-hosts": "derp21c.tailscale.com"
+            "notes": "DERP ord (12)",
+            "remote-hosts": [
+                "derp12d.tailscale.com",
+                "derp12e.tailscale.com",
+                "derp12f.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tor-21d",
-            "remote-addresses": "162.248.221.248,2607:f740:50::ca4"
+            "notes": "DERP den (13)",
+            "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP tor-21d",
-            "remote-hosts": "derp21d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP den (13)",
+            "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP waw-22b",
-            "remote-addresses": "45.159.98.196,2a00:dd80:40:100::316"
+            "notes": "DERP den (13)",
+            "remote-hosts": [
+                "derp13b.tailscale.com",
+                "derp13c.tailscale.com",
+                "derp13d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP waw-22b",
-            "remote-hosts": "derp22b.tailscale.com"
+            "notes": "DERP ams (14)",
+            "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP waw-22c",
-            "remote-addresses": "45.159.98.253,2a00:dd80:40:100::3f"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP ams (14)",
+            "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP waw-22c",
-            "remote-hosts": "derp22c.tailscale.com"
+            "notes": "DERP ams (14)",
+            "remote-hosts": [
+                "derp14b.tailscale.com",
+                "derp14c.tailscale.com",
+                "derp14d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP waw-22d",
-            "remote-addresses": "45.159.98.145,2a00:dd80:40:100::211"
+            "notes": "DERP jnb (15)",
+            "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP waw-22d",
-            "remote-hosts": "derp22d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP jnb (15)",
+            "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP dbi-23b",
-            "remote-addresses": "185.34.3.232,2a00:dd80:3f:100::76f"
+            "notes": "DERP jnb (15)",
+            "remote-hosts": [
+                "derp15b.tailscale.com",
+                "derp15c.tailscale.com",
+                "derp15d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP dbi-23b",
-            "remote-hosts": "derp23b.tailscale.com"
+            "notes": "DERP mia (16)",
+            "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dbi-23c",
-            "remote-addresses": "185.34.3.207,2a00:dd80:3f:100::a50"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP mia (16)",
+            "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP dbi-23c",
-            "remote-hosts": "derp23c.tailscale.com"
+            "notes": "DERP mia (16)",
+            "remote-hosts": [
+                "derp16b.tailscale.com",
+                "derp16c.tailscale.com",
+                "derp16d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP dbi-23d",
-            "remote-addresses": "185.34.3.75,2a00:dd80:3f:100::97e"
+            "notes": "DERP lax (17)",
+            "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dbi-23d",
-            "remote-hosts": "derp23d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP lax (17)",
+            "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hnl-24b",
-            "remote-addresses": "208.83.234.151,2001:19f0:c000:c586:5400:04ff:fe26:2ba6"
+            "notes": "DERP lax (17)",
+            "remote-hosts": [
+                "derp17b.tailscale.com",
+                "derp17c.tailscale.com",
+                "derp17d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hnl-24b",
-            "remote-hosts": "derp24b.tailscale.com"
+            "notes": "DERP par (18)",
+            "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP hnl-24c",
-            "remote-addresses": "208.83.233.233,2001:19f0:c000:c591:5400:04ff:fe26:2c5f"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP par (18)",
+            "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hnl-24c",
-            "remote-hosts": "derp24c.tailscale.com"
+            "notes": "DERP par (18)",
+            "remote-hosts": [
+                "derp18b.tailscale.com",
+                "derp18c.tailscale.com",
+                "derp18d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP hnl-24d",
-            "remote-addresses": "208.72.155.133,2001:19f0:c000:c564:5400:04ff:fe26:2ba8"
+            "notes": "DERP mad (19)",
+            "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP hnl-24d",
-            "remote-hosts": "derp24d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP mad (19)",
+            "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nai-25b",
-            "remote-addresses": "102.67.167.245,2c0f:edb0:2000:1::2e9"
+            "notes": "DERP mad (19)",
+            "remote-hosts": [
+                "derp19b.tailscale.com",
+                "derp19c.tailscale.com",
+                "derp19d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nai-25b",
-            "remote-hosts": "derp25b.tailscale.com"
+            "notes": "DERP sfo (2)",
+            "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nai-25c",
-            "remote-addresses": "102.67.167.37,2c0f:edb0:2000:1::2c7"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP sfo (2)",
+            "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nai-25c",
-            "remote-hosts": "derp25c.tailscale.com"
+            "notes": "DERP sfo (2)",
+            "remote-hosts": [
+                "derp2d.tailscale.com",
+                "derp2e.tailscale.com",
+                "derp2f.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nai-25d",
-            "remote-addresses": "102.67.167.188,2c0f:edb0:2000:1::188"
+            "notes": "DERP hkg (20)",
+            "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nai-25d",
-            "remote-hosts": "derp25d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP hkg (20)",
+            "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nue-26b",
-            "remote-addresses": "167.235.72.200,2a01:4f8:1c1c:47b6::1"
+            "notes": "DERP hkg (20)",
+            "remote-hosts": [
+                "derp20b.tailscale.com",
+                "derp20c.tailscale.com",
+                "derp20d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nue-26b",
-            "remote-hosts": "derp26b.tailscale.com"
+            "notes": "DERP tor (21)",
+            "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nue-26c",
-            "remote-addresses": "49.12.193.137,2a01:4f8:1c1c:5c70::1"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP tor (21)",
+            "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nue-26c",
-            "remote-hosts": "derp26c.tailscale.com"
+            "notes": "DERP tor (21)",
+            "remote-hosts": [
+                "derp21b.tailscale.com",
+                "derp21c.tailscale.com",
+                "derp21d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP nue-26d",
-            "remote-addresses": "49.13.204.141,2a01:4f8:1c0c:7d06::1"
+            "notes": "DERP waw (22)",
+            "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP nue-26d",
-            "remote-hosts": "derp26d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP waw (22)",
+            "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27b",
-            "remote-addresses": "5.161.218.233,2a01:4ff:f0:3db9::1"
+            "notes": "DERP waw (22)",
+            "remote-hosts": [
+                "derp22b.tailscale.com",
+                "derp22c.tailscale.com",
+                "derp22d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27b",
-            "remote-hosts": "derp27b.tailscale.com"
+            "notes": "DERP dbi (23)",
+            "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP iad-27c",
-            "remote-addresses": "178.156.152.91,2a01:4ff:f0:3913::1"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP dbi (23)",
+            "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27c",
-            "remote-hosts": "derp27c.tailscale.com"
+            "notes": "DERP dbi (23)",
+            "remote-hosts": [
+                "derp23b.tailscale.com",
+                "derp23c.tailscale.com",
+                "derp23d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27d",
-            "remote-addresses": "178.156.152.106,2a01:4ff:f0:3c8e::1"
+            "notes": "DERP hnl (24)",
+            "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP iad-27d",
-            "remote-hosts": "derp27d.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP hnl (24)",
+            "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27e",
-            "remote-addresses": "178.156.134.232,2a01:4ff:f0:28d4::1"
+            "notes": "DERP hnl (24)",
+            "remote-hosts": [
+                "derp24b.tailscale.com",
+                "derp24c.tailscale.com",
+                "derp24d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP iad-27e",
-            "remote-hosts": "derp27e.tailscale.com"
+            "notes": "DERP nai (25)",
+            "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sin-3b",
-            "remote-addresses": "43.245.49.105,2403:2500:300::b0c"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP nai (25)",
+            "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP sin-3b",
-            "remote-hosts": "derp3b.tailscale.com"
+            "notes": "DERP nai (25)",
+            "remote-hosts": [
+                "derp25b.tailscale.com",
+                "derp25c.tailscale.com",
+                "derp25d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP sin-3c",
-            "remote-addresses": "43.245.49.83,2403:2500:300::57a"
+            "notes": "DERP nue (26)",
+            "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP sin-3c",
-            "remote-hosts": "derp3c.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP nue (26)",
+            "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP sin-3d",
-            "remote-addresses": "43.245.49.144,2403:2500:300::df9"
+            "notes": "DERP nue (26)",
+            "remote-hosts": [
+                "derp26b.tailscale.com",
+                "derp26c.tailscale.com",
+                "derp26d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP sin-3d",
-            "remote-hosts": "derp3d.tailscale.com"
+            "notes": "DERP iad (27)",
+            "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP fra-4f",
-            "remote-addresses": "185.40.234.219,2a00:dd80:20::a25"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP iad (27)",
+            "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP fra-4f",
-            "remote-hosts": "derp4f.tailscale.com"
+            "notes": "DERP iad (27)",
+            "remote-hosts": [
+                "derp27b.tailscale.com",
+                "derp27c.tailscale.com",
+                "derp27d.tailscale.com",
+                "derp27e.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP fra-4g",
-            "remote-addresses": "185.40.234.113,2a00:dd80:20::8f"
+            "notes": "DERP sin (3)",
+            "remote-addresses": "2403:2500:300::57a,2403:2500:300::b0c,2403:2500:300::df9,43.245.49.105,43.245.49.144,43.245.49.83"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP fra-4g",
-            "remote-hosts": "derp4g.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP sin (3)",
+            "remote-addresses": "2403:2500:300::57a,2403:2500:300::b0c,2403:2500:300::df9,43.245.49.105,43.245.49.144,43.245.49.83"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP fra-4h",
-            "remote-addresses": "185.40.234.77,2a00:dd80:20::bcf"
+            "notes": "DERP sin (3)",
+            "remote-hosts": [
+                "derp3b.tailscale.com",
+                "derp3c.tailscale.com",
+                "derp3d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP fra-4h",
-            "remote-hosts": "derp4h.tailscale.com"
+            "notes": "DERP fra (4)",
+            "remote-addresses": "185.40.234.113,185.40.234.219,185.40.234.77,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP syd-5b",
-            "remote-addresses": "43.245.48.220,2403:2500:9000:1::ce7"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP fra (4)",
+            "remote-addresses": "185.40.234.113,185.40.234.219,185.40.234.77,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP syd-5b",
-            "remote-hosts": "derp5b.tailscale.com"
+            "notes": "DERP fra (4)",
+            "remote-hosts": [
+                "derp4f.tailscale.com",
+                "derp4g.tailscale.com",
+                "derp4h.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP syd-5c",
-            "remote-addresses": "43.245.48.50,2403:2500:9000:1::f57"
+            "notes": "DERP syd (5)",
+            "remote-addresses": "2403:2500:9000:1::43,2403:2500:9000:1::ce7,2403:2500:9000:1::f57,43.245.48.220,43.245.48.250,43.245.48.50"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP syd-5c",
-            "remote-hosts": "derp5c.tailscale.com"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP syd (5)",
+            "remote-addresses": "2403:2500:9000:1::43,2403:2500:9000:1::ce7,2403:2500:9000:1::f57,43.245.48.220,43.245.48.250,43.245.48.50"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP syd-5d",
-            "remote-addresses": "43.245.48.250,2403:2500:9000:1::43"
+            "notes": "DERP syd (5)",
+            "remote-hosts": [
+                "derp5b.tailscale.com",
+                "derp5c.tailscale.com",
+                "derp5d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP syd-5d",
-            "remote-hosts": "derp5d.tailscale.com"
+            "notes": "DERP blr (6)",
+            "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP blr-6a",
-            "remote-addresses": "68.183.90.120,2400:6180:100:d0::982:d001"
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP blr (6)",
+            "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP blr-6a",
+            "notes": "DERP blr (6)",
             "remote-hosts": "derp6.tailscale.com"
         },
         {
@@ -1172,144 +690,84 @@
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7b",
-            "remote-addresses": "103.84.155.178,2403:2500:400:20::b79"
+            "notes": "DERP tok (7)",
+            "remote-addresses": "103.84.155.178,103.84.155.188,103.84.155.46,2403:2500:400:20::835,2403:2500:400:20::b79,2403:2500:400:20::cfe"
+        },
+        {
+            "action": "allow",
+            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP tok (7)",
+            "remote-addresses": "103.84.155.178,103.84.155.188,103.84.155.46,2403:2500:400:20::835,2403:2500:400:20::b79,2403:2500:400:20::cfe"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7b",
-            "remote-hosts": "derp7b.tailscale.com"
+            "notes": "DERP tok (7)",
+            "remote-hosts": [
+                "derp7b.tailscale.com",
+                "derp7c.tailscale.com",
+                "derp7d.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7c",
-            "remote-addresses": "103.84.155.188,2403:2500:400:20::835"
+            "notes": "DERP lhr (8)",
+            "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed"
+        },
+        {
+            "action": "allow",
+            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP lhr (8)",
+            "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7c",
-            "remote-hosts": "derp7c.tailscale.com"
+            "notes": "DERP lhr (8)",
+            "remote-hosts": [
+                "derp8e.tailscale.com",
+                "derp8f.tailscale.com",
+                "derp8g.tailscale.com"
+            ]
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7d",
-            "remote-addresses": "103.84.155.46,2403:2500:400:20::cfe"
+            "notes": "DERP dfw (9)",
+            "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad"
+        },
+        {
+            "action": "allow",
+            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+            "protocol": "udp",
+            "ports": "41641",
+            "notes": "DERP dfw (9)",
+            "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad"
         },
         {
             "action": "allow",
             "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
             "protocol": "tcp",
             "ports": "80,443",
-            "notes": "DERP tok-7d",
-            "remote-hosts": "derp7d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8e",
-            "remote-addresses": "176.58.92.144,2a00:dd80:3a::b33"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8e",
-            "remote-hosts": "derp8e.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8f",
-            "remote-addresses": "176.58.88.183,2a00:dd80:3a::dfa"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8f",
-            "remote-hosts": "derp8f.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8g",
-            "remote-addresses": "176.58.92.254,2a00:dd80:3a::ed"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP lhr-8g",
-            "remote-hosts": "derp8g.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9d",
-            "remote-addresses": "209.177.156.94,2607:f740:100::c05"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9d",
-            "remote-hosts": "derp9d.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9e",
-            "remote-addresses": "192.73.248.83,2607:f740:100::359"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9e",
-            "remote-hosts": "derp9e.tailscale.com"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9f",
-            "remote-addresses": "209.177.156.197,2607:f740:100::cad"
-        },
-        {
-            "action": "allow",
-            "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
-            "protocol": "tcp",
-            "ports": "80,443",
-            "notes": "DERP dfw-9f",
-            "remote-hosts": "derp9f.tailscale.com"
+            "notes": "DERP dfw (9)",
+            "remote-hosts": [
+                "derp9d.tailscale.com",
+                "derp9e.tailscale.com",
+                "derp9f.tailscale.com"
+            ]
         }
     ]
 }

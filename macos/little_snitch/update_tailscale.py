@@ -37,28 +37,40 @@ if __name__ == '__main__':
     for region_id in derpmap['Regions'].keys():
         region = derpmap['Regions'][region_id]
         region_code = region['RegionCode']
+        dest_ips = []
+        dest_hostnames = []
+        notes = f"DERP {region_code} ({region_id})"
+
         for node in region['Nodes']:
-            node_name = node['Name']
-            ports = [80, 443] if node['CanPort80'] else [443]
-            notes = f"DERP {region_code}-{node_name}"
-            rules += [
-                create_rule(
-                    process=process,
-                    ports=ports,
-                    protocol="tcp",
-                    dest_ip=[node['IPv4'], node['IPv6']],
-                    owner=None,
-                    notes=notes,
-                ),
-                create_rule(
-                    process=process,
-                    ports=ports,
-                    protocol="tcp",
-                    dest_host=[node['HostName']],
-                    owner=None,
-                    notes=notes,
-                ),
-            ]
+            dest_ips += [node['IPv4'], node['IPv6']]
+            dest_hostnames += [node['HostName']]
+    
+        rules += [
+            create_rule(
+                process=process,
+                ports=[80, 443],
+                protocol="tcp",
+                dest_ip=sorted(dest_ips),
+                owner=None,
+                notes=notes,
+            ),
+            create_rule(
+                process=process,
+                ports=[41641],
+                protocol="udp",
+                dest_ip=sorted(dest_ips),
+                owner=None,
+                notes=notes,
+            ),
+            create_rule(
+                process=process,
+                ports=[80, 443],
+                protocol="tcp",
+                dest_host=sorted(dest_hostnames),
+                owner=None,
+                notes=notes,
+            ),
+        ]
 
     lsrules = {
         "name": "Tailscale",
