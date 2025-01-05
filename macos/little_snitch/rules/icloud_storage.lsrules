@@ -4,9 +4,9 @@
     "rules": [
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.cloudd",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
@@ -21,9 +21,9 @@
         },
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.cloudd",
             "protocol": "udp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
@@ -38,9 +38,9 @@
         },
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.imtransferservices.IMTransferAgent",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
@@ -55,9 +55,9 @@
         },
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.imtransferservices.IMTransferAgent",
             "protocol": "udp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
@@ -72,9 +72,9 @@
         },
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.nsurlsessiond",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
@@ -89,9 +89,9 @@
         },
         {
             "action": "allow",
-            "ports": 443,
             "process": "identifier.APPLE/com.apple.nsurlsessiond",
             "protocol": "udp",
+            "ports": "443",
             "owner": "me",
             "remote-hosts": [
                 "gcs-asia-00002.content-storage-download.googleapis.com",
