@@ -4,18 +4,18 @@
     "rules": [
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 1 - Data Management service",
             "remote-hosts": "v20.events.data.microsoft.com"
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 2 - Data Management service hosts",
             "remote-hosts": [
@@ -176,9 +176,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 2 - Defender for Endpoint - US",
             "remote-hosts": [
@@ -209,9 +209,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 3 - Defender for Endpoint - EU",
             "remote-hosts": [
@@ -234,9 +234,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 4 - Defender for Endpoint - UK",
             "remote-hosts": [
@@ -255,9 +255,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 5 - Defender for Endpoint - AU",
             "remote-hosts": [
@@ -274,9 +274,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 6 - Defender for Endpoint - AV",
             "remote-hosts": [
@@ -287,18 +287,18 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 1 - Defender Smart Screen",
             "remote-hosts": "smartscreen.microsoft.com"
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 2 - Defender Smart Screen hosts",
             "remote-hosts": [
@@ -330,9 +330,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 3 - Defender Smart Screen hosts - US",
             "remote-hosts": [
@@ -361,9 +361,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 4 - Defender Smart Screen hosts - EU",
             "remote-hosts": [
@@ -377,9 +377,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 5 - Defender Smart Screen hosts - UK",
             "remote-hosts": [
@@ -391,9 +391,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/wdavdaemon",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 6 - Defender Smart Screen hosts - AU",
             "remote-hosts": [
@@ -405,9 +405,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender",
             "protocol": "tcp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 1 - Experimentation and Configuration Service",
             "remote-hosts": [
@@ -417,9 +417,9 @@
         },
         {
             "action": "allow",
-            "ports": "443",
             "process": "/Applications/Microsoft Defender.app/Contents/MacOS/Microsoft Defender.app/Contents/MacOS/Microsoft Defender",
             "protocol": "udp",
+            "ports": "443",
             "owner": "me",
             "notes": "rule 1 - Experimentation and Configuration Service",
             "remote-hosts": [
