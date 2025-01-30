@@ -157,10 +157,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
-            "remote-hosts": [
-                "enterpriseregistration.windows.net",
-                "policykeyservice.dc.ad.msft.net"
-            ]
+            "remote-hosts": "enterpriseregistration.windows.net"
         },
         {
             "action": "allow",
@@ -396,10 +393,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
-            "remote-hosts": [
-                "enterpriseregistration.windows.net",
-                "policykeyservice.dc.ad.msft.net"
-            ]
+            "remote-hosts": "enterpriseregistration.windows.net"
         },
         {
             "action": "allow",
@@ -635,10 +629,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
-            "remote-hosts": [
-                "enterpriseregistration.windows.net",
-                "policykeyservice.dc.ad.msft.net"
-            ]
+            "remote-hosts": "enterpriseregistration.windows.net"
         },
         {
             "action": "allow",
@@ -874,10 +865,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 59 - Microsoft 365 Common and Office Online",
-            "remote-hosts": [
-                "enterpriseregistration.windows.net",
-                "policykeyservice.dc.ad.msft.net"
-            ]
+            "remote-hosts": "enterpriseregistration.windows.net"
         },
         {
             "action": "allow",
