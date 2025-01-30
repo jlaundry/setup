@@ -5,8 +5,10 @@ crl.pki.goog
 o.pki.goog
 ocsp.comodoca.com.cdn.cloudflare.net
 ocsp.digicert.com
+ocsp.e2m02.amazontrust.com 
 ocsp.e3m03.amazontrust.com
 ocsp.globalsign.com
+ocsp.godaddy.com
 ocsp.pki.goog
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
@@ -18,5 +20,7 @@ pki-goog.l.google.com
 prod.globalsign.map.fastly.net
 r3.i.lencr.org
 r3.o.lencr.org
+r10.o.lencr.org
+r11.o.lencr.org
 x1.c.lencr.org
 x1.i.lencr.org
