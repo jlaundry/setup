@@ -7,7 +7,7 @@ ARG VSCODE_VERSION
 RUN echo $VSCODE_VERSION
 
 RUN apt update && \
-    apt install curl git -y && \
+    apt install curl git python3 python3-venv -y && \
     apt clean all && \
     curl -sL "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64" --output /tmp/vscode-cli.tar.gz && \
     tar -xf /tmp/vscode-cli.tar.gz -C /usr/bin && \
