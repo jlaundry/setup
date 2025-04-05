@@ -1,6 +1,8 @@
 
 # https://docs.microsoft.com/en-us/windows/application-management/apps-in-windows-10
 
+# Note that this includes packages that aren't installed on all versions - this is so the same script can be used on both Windows 10, 11, and allll the editions
+
 # Things that won't be missed on a corporate laptop
 Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage
 Get-AppxPackage Microsoft.Getstarted | Remove-AppxPackage
@@ -9,13 +11,16 @@ Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 Get-AppxPackage Microsoft.YourPhone | Remove-AppxPackage
 Get-AppxPackage MicrosoftTeams | Remove-AppxPackage  # Personal account, this is not Teams (Work or School)
+Get-AppxPackage MSTeams | Remove-AppxPackage  # Personal account, this is not Teams (Work or School)
 Get-AppxPackage MicrosoftWindows.Client.WebExperience | Remove-AppxPackage
 
 # Things that won't be missed on a lightweight VM
 Get-AppxPackage Clipchamp.Clipchamp | Remove-AppxPackage
 Get-AppxPackage Microsoft.549981C3F5F10 | Remove-AppxPackage  # Cortana
 Get-AppxPackage Microsoft.Advertising.Xaml | Remove-AppxPackage
+Get-AppxPackage Microsoft.BingSearch | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
+Get-AppxPackage Microsoft.Copilot | Remove-AppxPackage
 Get-AppxPackage Microsoft.DesktopAppInstaller | Remove-AppxPackage
 Get-AppxPackage Microsoft.GetHelp | Remove-AppxPackage
 Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage
@@ -28,7 +33,9 @@ Get-AppxPackage Microsoft.People | Remove-AppxPackage
 Get-AppxPackage Microsoft.ScreenSketch | Remove-AppxPackage
 Get-AppxPackage Microsoft.Services.Store.Engagement | Remove-AppxPackage
 Get-AppxPackage Microsoft.StorePurchaseApp | Remove-AppxPackage
+Get-AppxPackage Microsoft.Todos | Remove-AppxPackage
 Get-AppxPackage Microsoft.Wallet | Remove-AppxPackage
+Get-AppxPackage Microsoft.WidgetsPlatformRuntime | Remove-AppxPackage
 Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage
@@ -37,9 +44,11 @@ Get-AppxPackage microsoft.windowscommunicationsapps | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsSoundRecorder | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
+Get-AppxPackage MicrosoftCorporationII.QuickAssist | Remove-AppxPackage
 
 # Things that you __might__ still want on a lightweight VM, but probably not
 Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
+Get-AppxPackage Microsoft.Paint | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsFeedbackHub | Remove-AppxPackage
 Get-AppxPackage Microsoft.Xbox.TCUI | Remove-AppxPackage
 Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
