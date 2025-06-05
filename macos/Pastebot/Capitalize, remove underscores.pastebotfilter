@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Capitalize, remove underscores</string>
+	<key>operationDescriptors</key>
+	<array>
+		<dict>
+			<key>caseType</key>
+			<integer>2</integer>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorCase</string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>_</string>
+			<key>findType</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>KeyVault Ref</string>
+	<key>operationDescriptors</key>
+	<array>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>(https://\w+.vault.azure.net/secrets/[\w\-]+)/?.*</string>
+			<key>findType</key>
+			<integer>1024</integer>
+			<key>replaceString</key>
+			<string>@Microsoft.KeyVault(SecretUri=$1)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

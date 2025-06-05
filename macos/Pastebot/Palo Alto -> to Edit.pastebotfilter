@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Palo Alto -&gt; to Edit</string>
+	<key>operationDescriptors</key>
+	<array>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string> -&gt; </string>
+			<key>findType</key>
+			<integer>0</integer>
+			<key>replaceString</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>(.*)</string>
+			<key>findType</key>
+			<integer>1024</integer>
+			<key>replaceString</key>
+			<string>edit $1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorPlainText</string>
+		</dict>
+	</array>
+</dict>
+</plist>

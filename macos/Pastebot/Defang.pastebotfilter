@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Defang</string>
+	<key>operationDescriptors</key>
+	<array>
+		<dict>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorPlainText</string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>(\w+)\.</string>
+			<key>findType</key>
+			<integer>1024</integer>
+			<key>replaceString</key>
+			<string>$1[.]</string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>http(s?)://</string>
+			<key>findType</key>
+			<integer>1024</integer>
+			<key>replaceString</key>
+			<string>hXXp$1://</string>
+		</dict>
+	</array>
+</dict>
+</plist>
