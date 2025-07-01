@@ -666,10 +666,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 32 - SharePoint Online and OneDrive for Business",
-            "remote-hosts": [
-                "ssw.live.com",
-                "storage.live.com"
-            ]
+            "remote-hosts": "storage.live.com"
         },
         {
             "action": "allow",
@@ -834,10 +831,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 32 - SharePoint Online and OneDrive for Business",
-            "remote-hosts": [
-                "ssw.live.com",
-                "storage.live.com"
-            ]
+            "remote-hosts": "storage.live.com"
         },
         {
             "action": "allow",
@@ -1002,10 +996,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 32 - SharePoint Online and OneDrive for Business",
-            "remote-hosts": [
-                "ssw.live.com",
-                "storage.live.com"
-            ]
+            "remote-hosts": "storage.live.com"
         },
         {
             "action": "allow",
