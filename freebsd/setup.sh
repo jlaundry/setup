@@ -1,3 +1,17 @@
 #!/bin/sh
 
-pkg install bash curl git jq python310 screen smartmontools vim-tiny zfs-periodic
+pkg update
+pkg install sudo
+
+visudo # uncomment %wheel
+
+pkg install \
+ bash \
+ curl \
+ git \
+ jq \
+ python311 \
+ screen \
+ smartmontools \
+ vim-tiny \
+ zfs-periodic
