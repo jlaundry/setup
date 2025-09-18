@@ -104,6 +104,7 @@
             "processes": [
                 "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
                 "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
+                "\/Applications\/OneDrive.app\/Contents\/OneDrive Sync Service.app\/Contents\/MacOS\/OneDrive Sync Service",
                 "\/Applications\/OneDrive.app\/Contents\/Microsoft SharePoint.app\/Contents\/MacOS\/Microsoft SharePoint"
             ],
             "rules": [
