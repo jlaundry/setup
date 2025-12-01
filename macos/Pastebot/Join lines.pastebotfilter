@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Join lines</string>
+	<key>operationDescriptors</key>
+	<array>
+		<dict>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorLineEnds</string>
+			<key>lineEndType</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>\n\n</string>
+			<key>findType</key>
+			<integer>1025</integer>
+			<key>replaceString</key>
+			<string>&lt;br/&gt;</string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>\s*\n\s*</string>
+			<key>findType</key>
+			<integer>1025</integer>
+			<key>replaceString</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>caseSensitive</key>
+			<false/>
+			<key>className</key>
+			<string>PTHPastebotFilterOperationDescriptorFind</string>
+			<key>findString</key>
+			<string>&lt;br/&gt;</string>
+			<key>findType</key>
+			<integer>0</integer>
+			<key>replaceString</key>
+			<string>
+
+</string>
+		</dict>
+	</array>
+</dict>
+</plist>
