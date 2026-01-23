@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+; Skip the 4 different "welcome" screens, and don't import from other browsers
+"ImportOnEachLaunch"=dword:00000000
+"AutoImportAtFirstRun"=dword:00000004
+"HideFirstRunExperience"=dword:00000001
+
+; No, I don't want all this garbage on my new tab bar
+"NewTabPageContentEnabled"=dword:00000000
+"NewTabPageQuickLinksEnabled"=dword:00000000
+"NewTabPageAllowedBackgroundTypes"=dword:00000003
+
+; No, I don't want random Copilot crap
+"EdgeCollectionsEnabled"=dword:00000000
+"EdgeCopilotEnabled"=dword:00000000
+"EdgeShoppingAssistantEnabled"=dword:00000000
+"MathSolverEnabled"=dword:00000000
+"ShowMicrosoftRewards"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+
+; Prevent 3rd party extensions (for extra security)
+"BlockExternalExtensions"=dword:00000001
+
+; Make it stop!
+"BackgroundModeEnabled"=dword:00000000
