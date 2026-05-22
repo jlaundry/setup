@@ -7,14 +7,16 @@ ARG VSCODE_VERSION
 RUN echo $VSCODE_VERSION
 
 RUN apt update && \
-    apt install curl git build-essential python3 python3-venv -y && \
+    apt install curl git build-essential golang-go python3 python3-venv zip unzip -y && \
     apt clean all && \
     curl -sL "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64" --output /tmp/vscode-cli.tar.gz && \
     tar -xf /tmp/vscode-cli.tar.gz -C /usr/bin && \
     rm /tmp/vscode-cli.tar.gz && \
     mkdir /src
 
-VOLUME /src
+VOLUME /opt
 VOLUME /root
+VOLUME /src
 
+WORKDIR /root
 CMD [ "code", "tunnel", "--accept-server-license-terms", "--no-sleep" ]
