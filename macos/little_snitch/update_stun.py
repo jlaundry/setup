@@ -20,7 +20,7 @@ for process in processes:
         process,
         19302,
         protocol="udp",
-        dest_host="stun.cloudflare.com",
+        dest_host=["stun.cloudflare.com"],
     )
     lsrules['rules'].append(rule)
 
