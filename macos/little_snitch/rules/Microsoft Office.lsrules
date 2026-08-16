@@ -348,11 +348,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -361,11 +357,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -713,11 +705,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -726,11 +714,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -1078,11 +1062,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -1091,11 +1071,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -1443,11 +1419,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
@@ -1456,11 +1428,7 @@
             "ports": "443",
             "owner": "me",
             "notes": "rule 184 - Microsoft 365 Common and Office Online",
-            "remote-domains": [
-                "cloud.microsoft",
-                "static.microsoft",
-                "usercontent.microsoft"
-            ]
+            "remote-domains": "cloud.microsoft"
         },
         {
             "action": "allow",
